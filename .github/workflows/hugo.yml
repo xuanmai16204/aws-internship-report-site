@@ -10,9 +10,14 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,10 +25,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.123.0'
+          extended: true
 
-      - name: Build
-        run: hugo
+      - name: Build site
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -33,10 +39,12 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
