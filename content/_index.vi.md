@@ -1,19 +1,19 @@
 ---
 title: "Báo cáo thực tập"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 ---
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn A
+&emsp; **Họ và tên:** Huỳnh Phúc Xuân Mai
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** 0908036253
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** huynhmai16204@gmail.com
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** Đại học Công Nghệ TP.HCM - Hutech
 
 &emsp; **Ngành:** Công nghệ thông tin
 
@@ -21,11 +21,10 @@ chapter: false
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Vị trí thực tập:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
-
-![Ảnh đại diện của bạn](/images/avatar.png)
+&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/07/2026
+![Ảnh đại diện của bạn](c:\Users\Administrator\Downloads\hinhprofile.jpg)
 
 
 
