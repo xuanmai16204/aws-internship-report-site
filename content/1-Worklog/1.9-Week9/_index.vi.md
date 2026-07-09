@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 9"
-date: 2024-01-01
-weight: 1
+date: 2026-06-12
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần này em tìm hiểu các phương thức giúp quản lý chi phí đám mây và thực hành xuất báo cáo sử dụng tài nguyên.
 
-### Mục tiêu tuần 9:
+### Mục tiêu tuần:
+* Hỗ trợ nhóm rà soát và hoàn thiện bài dịch Blog 2 chuyên ngành trước khi đăng lên website báo cáo.
+* Tìm hiểu giải pháp quản lý chi phí hiệu quả (Cost Optimization) thông qua gói Savings Plans.
+* Phân biệt tính năng của các gói máy chủ mua trước Reserved Instances dạng Standard và Convertible.
+* Học cách cấu hình các báo cáo chi tiêu (Billing Reports), xuất báo cáo sử dụng tài nguyên (Export Usage Reports) về lưu trữ tại Amazon Simple Storage Service (Amazon S3).
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em phối hợp cùng nhóm kiểm tra nội dung bài dịch Blog 2 sau khi hoàn thành, rà soát cách hiển thị trên website và góp ý sửa lỗi trình bày. | 13/06/2026 | 13/06/2026 |
+| Chủ nhật | Em học về khái niệm Cost Optimization và tìm hiểu các tùy chọn Savings Plans để giúp giảm thiểu chi phí máy chủ. | 14/06/2026 | 14/06/2026 |
+| Thứ 3 | Em tìm hiểu cách hoạt động của Reserved Instances, so sánh sự khác nhau giữa hai tùy chọn Standard và Convertible. | 16/06/2026 | 16/06/2026 |
+| Thứ 5 | Em cấu hình xuất các báo cáo chi tiêu Billing Reports và cấu hình tự động lưu thông tin Export Usage Reports về S3. | 18/06/2026 | 18/06/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Khắc phục lỗi hệ thống:** Em cùng nhóm thực hiện sửa lỗi ứng dụng, kiểm tra chức năng upload tài liệu, kiểm tra cấu hình CORS và hoàn thiện chức năng lưu trữ tài liệu.
 
+### Kết quả đạt được:
+* Em phối hợp hỗ trợ nhóm hoàn thiện và xuất bản bài viết Blog 2 đúng kế hoạch.
+* Em biết thêm cách sử dụng Reserved Instances và Savings Plans để quản lý chi phí khi sử dụng các dịch vụ AWS.
+* Em cùng nhóm sửa xong các lỗi tải lên và thông qua việc kiểm tra hoạt động lưu trữ.
 
-### Kết quả đạt được tuần 9:
+### Kinh nghiệm rút ra:
+* Việc rà soát bài dịch cùng nhóm giúp em trau chuốt thêm khả năng sử dụng thuật ngữ dịch thuật. Bên cạnh đó, quá trình trực tiếp khắc phục lỗi CORS với các thành viên giúp em biết cách quản lý chia sẻ tài nguyên an toàn cho hệ thống nhóm.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ hỗ trợ nhóm kiểm tra bài dịch Blog 3 và tìm hiểu cách phân tích dữ liệu log thô bằng dịch vụ kiểm tra dữ liệu lớn.

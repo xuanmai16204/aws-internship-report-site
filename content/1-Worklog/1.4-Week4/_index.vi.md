@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 4"
-date: 2024-01-01
-weight: 1
+date: 2026-05-08
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần này em chuyển sang tìm hiểu về dịch vụ cơ sở dữ liệu quan hệ trên đám mây và cơ chế co giãn tài nguyên.
 
-### Mục tiêu tuần 4:
+### Mục tiêu tuần:
+* Hiểu cơ chế hoạt động của Amazon Relational Database Service (Amazon RDS) bao gồm cấu hình dự phòng Multi-AZ, Read Replica và sao lưu (Backup).
+* Thực hành khởi tạo cơ sở dữ liệu RDS MySQL và kết nối đến Database.
+* Học cách sao lưu (Backup), tạo bản Snapshot và thực hiện khôi phục (Restore) dữ liệu.
+* Tìm hiểu cấu trúc vận hành của hệ thống co giãn tự động EC2 Auto Scaling và bộ cân bằng tải Elastic Load Balancer (ELB).
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em tự tìm hiểu lý thuyết về RDS, phân biệt cách thiết lập Multi-AZ, Read Replica và cơ chế sao lưu. | 09/05/2026 | 09/05/2026 |
+| Chủ nhật | Em thực hành tạo cơ sở dữ liệu RDS MySQL và kiểm tra việc kết nối vào Database. | 10/05/2026 | 10/05/2026 |
+| Thứ 3 | Em thực hiện cấu hình sao lưu tự động, tự tạo Snapshot và thực hành khôi phục dữ liệu database. | 12/05/2026 | 12/05/2026 |
+| Thứ 5 | Em tìm hiểu cấu trúc hoạt động của EC2 Auto Scaling và bộ cân bằng tải ELB. | 14/05/2026 | 14/05/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Thiết kế kiến trúc:** Em phối hợp cùng nhóm trao đổi và phác thảo sơ đồ thiết kế kiến trúc hệ thống của ứng dụng CloudDoc.
 
+### Kết quả đạt được:
+* Em khởi tạo chạy thử thành công một cơ sở dữ liệu RDS MySQL.
+* Em thực hiện sao lưu và khôi phục dữ liệu từ Snapshot thành công.
+* Em cùng nhóm thống nhất sơ đồ phác thảo kiến trúc hệ thống.
 
-### Kết quả đạt được tuần 4:
+### Kinh nghiệm rút ra:
+* Thực hành tạo cơ sở dữ liệu độc lập giúp em hiểu rõ lợi ích của việc phân chia cấu phần hệ thống. Ngoài ra, việc làm việc cùng nhóm giúp em nắm được phương pháp phác thảo kiến trúc tổng thể cho một ứng dụng thực tế.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ tìm hiểu cách quản lý tên miền thông qua Amazon Route 53 và cài đặt công cụ AWS CLI.

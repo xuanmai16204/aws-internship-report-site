@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
-weight: 2
+date: 2026-06-19
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần này em chuyển sang tìm hiểu về các dịch vụ phân tích dữ liệu lớn trên AWS và hỗ trợ nhóm hoàn thành tài liệu dự án.
 
-### Mục tiêu tuần 10:
+### Mục tiêu tuần:
+* Hỗ trợ nhóm rà soát nội dung và hoàn thiện bài viết Blog 3 chuyên ngành trước khi đăng lên website.
+* Tìm hiểu cách cấu hình AWS Glue Crawler để tự động quét dữ liệu và tạo bảng trong AWS Glue Data Catalog (Glue Data Catalog).
+* Làm quen với Amazon Athena và thiết lập vị trí lưu kết quả truy vấn trên Amazon Simple Storage Service (Amazon S3).
+* Thực hành sử dụng AWS Glue và Amazon Athena để viết các câu lệnh truy vấn dữ liệu chi phí lưu trữ trên S3.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em phối hợp cùng nhóm kiểm tra nội dung sau khi bài dịch Blog 3 hoàn thành, rà soát cách hiển thị và hỗ trợ hoàn thiện bài viết trên Hugo. | 20/06/2026 | 20/06/2026 |
+| Chủ nhật | Em tìm hiểu cách hoạt động của AWS Glue, thiết lập quét dữ liệu bằng Glue Crawler và lưu thông tin bảng vào Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
+| Thứ 3 | Em làm quen giao diện Amazon Athena, thiết lập liên kết cơ sở dữ liệu và chỉ định vị trí lưu kết quả tại S3 bucket. | 23/06/2026 | 23/06/2026 |
+| Thứ 5 | Em thực hành viết các câu lệnh SQL trong Athena để truy vấn và thống kê các thông tin hóa đơn chi phí lưu trên S3. | 25/06/2026 | 25/06/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Chuẩn bị vận hành:** Em cùng nhóm phối hợp hoàn thiện tài liệu dự án, kiểm tra lại các API hệ thống, hoàn thiện tài liệu hướng dẫn sử dụng và chuẩn bị cho buổi demo nội bộ của nhóm.
 
+### Kết quả đạt được:
+* Em hỗ trợ nhóm hoàn thành việc soát lỗi hiển thị bài viết Blog 3.
+* Em bước đầu áp dụng AWS Glue và Athena để chạy các câu lệnh truy vấn đơn giản.
+* Em cùng nhóm hoàn thành bộ tài liệu và sẵn sàng các bước chuẩn bị demo nội bộ.
 
-### Kết quả đạt được tuần 10:
+### Kinh nghiệm rút ra:
+* Quá trình thực hành truy vấn giúp em làm quen với việc sử dụng SQL để khai thác dữ liệu lưu trữ trực tiếp. Đồng thời, việc cùng nhóm soạn thảo tài liệu hướng dẫn sử dụng giúp em có thêm kinh nghiệm tổng hợp thông tin kỹ thuật của dự án.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ tìm hiểu biện pháp tăng cường bảo mật truy cập dịch vụ qua VPC Endpoints và tiến hành buổi báo cáo thử nghiệm sản phẩm của nhóm.

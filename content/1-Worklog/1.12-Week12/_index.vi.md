@@ -1,58 +1,36 @@
 ---
 title: "Worklog Tuần 12"
-date: 2024-01-01
-weight: 2
+date: 2026-07-03
+weight: 12
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-### Mục tiêu tuần 12:
+Tuần cuối của kỳ thực tập, em tập trung hoàn thiện website báo cáo Hugo, kiểm tra lại toàn bộ nội dung và hoàn tất báo cáo thực tập.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Mục tiêu tuần:
+* Hoàn thiện giao diện website Hugo, chỉnh sửa bố cục hiển thị và căn chỉnh các trang.
+* Kiểm tra toàn bộ nội dung tiếng Việt và tiếng Anh để đảm bảo các trang hiển thị đúng.
+* Dọn dẹp các tệp tin không sử dụng và kiểm tra Build Log của website.
+* Thực hiện deploy trang báo cáo thực tập Hugo lên GitHub Pages.
+* Hoàn thiện bản tự đánh giá cá nhân và báo cáo thực tập cuối khóa.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em hoàn thiện giao diện website Hugo, điều chỉnh bố cục và kiểm tra cách hiển thị của các trang. | 04/07/2026 | 04/07/2026 |
+| Chủ nhật | Em kiểm tra toàn bộ nội dung tiếng Việt và tiếng Anh để đảm bảo các trang được hiển thị đúng. | 05/07/2026 | 05/07/2026 |
+| Thứ 3 | Em thực hiện dọn dẹp các file không sử dụng trên Hugo và kiểm tra Build Log để đảm bảo trang hoạt động bình thường. | 07/07/2026 | 07/07/2026 |
+| Thứ 5 | Em thực hiện deploy website báo cáo Hugo lên GitHub Pages và kiểm tra lại sau khi hoàn tất. | 09/07/2026 | 09/07/2026 |
+| Thứ 6 | Em hoàn thiện bản tự đánh giá cá nhân và hoàn thiện báo cáo thực tập cuối kỳ. | 10/07/2026 | 10/07/2026 |
 
+### Dự án CloudDoc:
+* **Hoàn tất dự án:** Em cùng nhóm tiến hành kiểm tra lại toàn bộ chức năng lần cuối, thực hiện buổi demo cuối của dự án và hoàn thiện các nội dung của dự án CloudDoc.
 
-### Kết quả đạt được tuần 12:
+### Kết quả đạt được:
+* Em hoàn thiện giao diện hiển thị trang báo cáo thực tập cá nhân và deploy thành công lên GitHub Pages.
+* Em cùng nhóm hoàn thành việc kiểm tra lần cuối các chức năng và thực hiện demo hoàn chỉnh dự án.
+* Em hoàn thành đầy đủ bản tự đánh giá cá nhân và báo cáo thực tập cuối khóa.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kinh nghiệm rút ra:
+* Qua thời gian thực tập, em có thêm kinh nghiệm khi làm việc với các dịch vụ AWS và phối hợp cùng nhóm. Việc hoàn thiện website và báo cáo cũng giúp em cẩn thận hơn trong quá trình kiểm tra tài liệu.

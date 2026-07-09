@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
-weight: 1
+date: 2026-05-01
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Một tuần mới bắt đầu, em chuyển sang tìm hiểu về phân quyền bảo mật máy chủ và thực hành dịch vụ lưu trữ đối tượng.
 
-### Mục tiêu tuần 3:
+### Mục tiêu tuần:
+* Hiểu cách gán quyền hạn Identity and Access Management (IAM) Role cho máy chủ Amazon Elastic Compute Cloud (EC2) an toàn.
+* Học các kiến thức cơ bản về Amazon Simple Storage Service (Amazon S3) bao gồm tạo Bucket, quy tắc đặt tên, quyền truy cập và các lớp lưu trữ (Storage Classes).
+* Thực hành cấu hình lưu trữ website tĩnh và thiết lập chính sách bảo mật cho Bucket.
+* Tìm hiểu các tính năng quản lý phiên bản (Versioning), vòng đời đối tượng (Object Lifecycle) và cơ chế sao chép chéo vùng (Cross-Region Replication).
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em cấu hình IAM Role cho máy chủ EC2 để phân quyền an toàn cho ứng dụng khi truy cập tài nguyên. | 02/05/2026 | 02/05/2026 |
+| Chủ nhật | Em tìm hiểu cách khởi tạo Bucket, quy tắc đặt tên, cấu hình quyền truy cập và học về các Storage Classes trên S3. | 03/05/2026 | 03/05/2026 |
+| Thứ 3 | Em thực hành chạy thử tính năng Static Website Hosting và viết chính sách Bucket Policy để phân quyền truy cập S3. | 05/05/2026 | 05/05/2026 |
+| Thứ 5 | Em tìm hiểu cách bật tính năng S3 Versioning, thiết lập quy tắc Object Lifecycle và nghe giới thiệu về cơ chế Cross-Region Replication. | 07/05/2026 | 07/05/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Thiết kế cơ sở dữ liệu:** Em phối hợp cùng nhóm thảo luận cấu trúc dữ liệu, xác định các bảng chính và trao đổi sơ bộ về kiến trúc hệ thống của ứng dụng CloudDoc.
 
+### Kết quả đạt được:
+* Em gán thành công IAM Role cho EC2 mà không cần dùng Access Key.
+* Em thực hành khởi tạo và phân cấu hình quyền cho S3 Bucket bình thường.
+* Em cùng nhóm phác thảo xong cấu trúc dữ liệu và mô hình bảng ban đầu.
 
-### Kết quả đạt được tuần 3:
+### Kinh nghiệm rút ra:
+* Nhờ thực hành gán IAM Role cho EC2, em biết cách xây dựng hệ thống bảo mật tốt hơn. Ngoài ra, việc trao đổi thiết kế cấu trúc dữ liệu cùng nhóm giúp em hiểu sâu hơn về kiến thức thực tiễn của dự án.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ tìm hiểu hệ quản trị cơ sở dữ liệu Amazon Relational Database Service (Amazon RDS) và cơ cấu co giãn tải máy chủ EC2.

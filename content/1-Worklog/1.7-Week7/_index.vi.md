@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
-weight: 1
+date: 2026-05-29
+weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần này em tìm hiểu mô hình tính toán không máy chủ và học cách tự động hóa thiết lập hạ tầng.
 
-### Mục tiêu tuần 7:
+### Mục tiêu tuần:
+* Tham gia sự kiện Event 2: First Cloud AI Meet Up.
+* Hiểu cách hoạt động của dịch vụ chạy mã nguồn không máy chủ AWS Lambda bao gồm Runtime, Handler và Trigger.
+* Thực hành kết nối dịch vụ lưu trữ Amazon Simple Storage Service (Amazon S3) với AWS Lambda để tự động kích hoạt Trigger khi có tệp tải lên.
+* Tìm hiểu công cụ AWS CloudFormation để khai báo tài nguyên qua Template và chạy thử Stack Deployment.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em tham gia hoạt động Event 2: First Cloud AI Meet Up, tích lũy kiến thức chia sẻ, ghi nhận một số kinh nghiệm thực tiễn và tìm thêm ý tưởng để áp dụng cho CloudDoc. | 30/05/2026 | 30/05/2026 |
+| Chủ nhật | Em tìm hiểu về AWS Lambda, cấu hình thử nghiệm Runtime, tìm hiểu cách viết mã nguồn Handler và thiết lập cơ chế Trigger. | 31/05/2026 | 31/05/2026 |
+| Thứ 3 | Em thực hành liên kết S3 với AWS Lambda để tự động cấu hình chạy trigger khi có tệp tải lên. | 02/06/2026 | 02/06/2026 |
+| Thứ 5 | Em tìm hiểu cách viết tệp cấu hình Template của AWS CloudFormation và thực hành chạy thử Stack Deployment hạ tầng cơ bản. | 04/06/2026 | 04/06/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Xây dựng tính năng tải lên:** Em cùng nhóm thảo luận phát triển chức năng upload tài liệu, kiểm tra hoạt động lưu trữ của API upload và kiểm thử kết nối truyền nhận thông tin giữa frontend và backend.
 
+### Kết quả đạt được:
+* Em tích lũy thêm các bài học thực tế về DevOps khi tham dự sự kiện Meet Up.
+* Em thiết lập chạy thành công trigger tự động từ S3 để gọi hàm AWS Lambda.
+* Em cùng nhóm kết nối dữ liệu tải lên thành công qua giao diện kiểm thử.
 
-### Kết quả đạt được tuần 7:
+### Kinh nghiệm rút ra:
+* Tìm hiểu giải pháp không máy chủ giúp em biết cách thiết kế dịch vụ chạy tự động linh hoạt. Ngoài ra, việc phối hợp cùng nhóm kiểm thử kết nối API giúp em hiểu rõ luồng truyền tải thông tin của hệ thống.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ thực hiện dịch bài viết Blog chuyên ngành đầu tiên và cấu hình các cảnh báo chi phí tài nguyên AWS.

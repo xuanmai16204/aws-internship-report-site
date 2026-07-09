@@ -1,57 +1,37 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+During my first week of the internship, I spent time understanding the program details and setting up my reporting environment.
 
-### Week 1 Objectives:
+### Weekly Objectives
+* Attend the orientation session for the First Cloud Journey program.
+* Set up the Hugo reporting environment on my personal computer.
+* Register for an AWS Free Tier account and set up cost alerts using AWS Budgets.
+* Learn how to manage accounts and set basic permissions using AWS Identity and Access Management (IAM).
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Activities
+| Day | Task | Start Date | Completion Date |
+| --- | --- | --- | --- |
+| Saturday | I attended the introduction to the First Cloud Journey internship program and successfully installed and configured the Hugo environment on my personal computer. | 18/04/2026 | 18/04/2026 |
+| Sunday | I signed up for an AWS Free Tier account and set up AWS Budgets to configure cost alerts. | 19/04/2026 | 19/04/2026 |
+| Tuesday | I compared the four AWS Support plans: Basic, Developer, Business, and Enterprise. | 21/04/2026 | 21/04/2026 |
+| Thursday | I practiced using IAM to create users, groups, and configure basic policies to delegate permissions for sub-accounts instead of using the root account directly. | 23/04/2026 | 23/04/2026 |
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### CloudDoc Project
+* **Group Meeting:** I worked with my teammates to form an internship group and participated in the initial kick-off meeting. We agreed to build the CloudDoc application to manage and share documents on the cloud. We also assigned responsibilities to each team member.
 
+### Results
+* I successfully ran the Hugo report site on my personal computer.
+* I configured cost limit notifications on my AWS account using AWS Budgets.
+* I created an IAM user and assigned appropriate permissions for daily practice.
 
-### Week 1 Achievements:
+### Lessons Learned
+* The orientation session helped me understand the internship roadmap and reporting requirements. The first team meeting also gave us a chance to discuss ideas and organize our work for the CloudDoc project.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Next Week Plan
+* I will learn about Amazon Virtual Private Cloud (Amazon VPC) and Amazon Elastic Compute Cloud (Amazon EC2).

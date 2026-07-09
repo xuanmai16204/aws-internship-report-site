@@ -1,57 +1,36 @@
 ---
 title: "Week 12 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-07-03
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+During the final week of the internship, I focused on finishing the Hugo report website, reviewing all content, and completing the internship report.
 
-### Week 12 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Week Objectives:
+* Complete the Hugo website interface, edit the layout, and align the pages.
+* Check all Vietnamese and English content to ensure the pages display correctly.
+* Clean up unused files and check the build logs of the website.
+* Deploy the Hugo internship report website to GitHub Pages.
+* Complete the self-evaluation and final internship report.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date |
+| --- | --- | --- | --- |
+| Saturday | I completed the Hugo website interface, adjusted the layout, and checked page display. | 04/07/2026 | 04/07/2026 |
+| Sunday | I checked all Vietnamese and English content to ensure the pages are displayed correctly. | 05/07/2026 | 05/07/2026 |
+| Tuesday | I cleaned up unused files on Hugo and checked the build logs to ensure the website is working normally. | 07/07/2026 | 07/07/2026 |
+| Thursday | I deployed the Hugo report website to GitHub Pages and double-checked it afterwards. | 09/07/2026 | 09/07/2026 |
+| Friday | I completed the self-evaluation and finalized the end-of-term internship report. | 10/07/2026 | 10/07/2026 |
 
+### CloudDoc Project:
+* **Project Completion:** Together with the team, I checked all functions for the last time, carried out the final demo of the project, and completed the contents of the CloudDoc project.
 
-### Week 12 Achievements:
+### Achievements:
+* I completed the display interface of the personal report website and successfully deployed it to GitHub Pages.
+* Together with the team, I completed the final check of all functions and conducted the project's complete demo.
+* I completed the self-evaluation and the final internship report.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Lessons Learned:
+* Through the internship, I gained more experience working with AWS services and collaborating with the team. Completing the website and report also helped me be more careful when reviewing documents.

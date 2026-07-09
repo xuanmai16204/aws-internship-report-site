@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
-weight: 1
+date: 2026-05-15
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Tuần này em dành thời gian để học cách quản trị tên miền trực tuyến và cấu hình các công cụ giám sát máy chủ.
 
-### Mục tiêu tuần 5:
+### Mục tiêu tuần:
+* Tìm hiểu dịch vụ quản lý tên miền Amazon Route 53 để cấu hình Hosted Zone, các bản ghi DNS Records và cơ chế dự phòng Failover Routing.
+* Cài đặt và cấu hình giao diện dòng lệnh AWS Command Line Interface (AWS CLI) bao gồm thiết lập Credentials và Region.
+* Sử dụng dịch vụ giám sát Amazon CloudWatch để theo dõi máy chủ Amazon Elastic Compute Cloud (EC2), cấu hình cảnh báo quá tải CPU (CPU Utilization Alarm).
+* Tìm hiểu giải pháp quản lý logs với CloudWatch Logs gồm Log Group và cấu hình Log Agent trên EC2.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em thực hành khai báo tên miền trong Route 53, cấu hình Hosted Zone, tạo các bản ghi DNS và chạy thử cơ chế Failover Routing. | 16/05/2026 | 16/05/2026 |
+| Chủ nhật | Em cài đặt AWS CLI trên máy tính cá nhân, cấu hình Credentials truy cập và chỉ định Region mặc định. | 17/05/2026 | 17/05/2026 |
+| Thứ 3 | Em thực hiện cấu hình CloudWatch để theo dõi hiệu năng EC2 và thiết lập cảnh báo Alarm khi CPU vượt ngưỡng. | 19/05/2026 | 19/05/2026 |
+| Thứ 5 | Em tìm hiểu dịch vụ CloudWatch Logs, thực hiện tạo Log Group và cài đặt Log Agent trên máy chủ. | 21/05/2026 | 21/05/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Khởi động dự án trên Git:** Em cùng nhóm tạo kho lưu trữ GitHub Repository chính thức cho dự án CloudDoc, thảo luận thống nhất quy tắc làm việc nhóm và thực hiện phân chia công việc cho các thành viên.
 
+### Kết quả đạt được:
+* Em cấu hình thành công các bản ghi tên miền bằng Route 53.
+* Em thiết lập xong môi trường chạy AWS CLI cục bộ.
+* Em cùng nhóm hoàn thành việc phân chia công việc rõ ràng trên Git.
 
-### Kết quả đạt được tuần 5:
+### Kinh nghiệm rút ra:
+* Thực hành CloudWatch Alarm giúp em hiểu cách quản trị hệ thống chủ động. Việc khởi tạo kho lưu trữ GitHub Repository cùng các quy tắc giúp nhóm em phối hợp trơn tru hơn trong quá trình phát triển dự án.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ tham gia ngày hội lập trình và tìm hiểu các tính năng quản trị quy mô lớn của AWS Systems Manager.

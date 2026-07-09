@@ -1,57 +1,37 @@
 ---
 title: "Week 10 Worklog"
-date: 2024-01-01
-weight: 2
+date: 2026-06-19
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+This week, I switched to learning about big data analysis services on AWS and supported the team in completing project documentation.
 
-### Week 10 Objectives:
-
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Week Objectives:
+* Support the team in reviewing content and refining the specialized Blog 3 post before publishing it on the website.
+* Learn how to configure AWS Glue Crawlers to automatically scan data and create tables in the AWS Glue Data Catalog (Glue Data Catalog).
+* Get acquainted with Amazon Athena and set up the query results location on Amazon Simple Storage Service (Amazon S3).
+* Practice using AWS Glue and Amazon Athena to write query statements for storage cost data on S3.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date |
+| --- | --- | --- | --- |
+| Saturday | I collaborated with the team to check the contents of Blog 3 after the translation was completed, reviewed its display, and supported refining the post on Hugo. | 20/06/2026 | 20/06/2026 |
+| Sunday | I studied how AWS Glue operates, set up data scanning with Glue Crawlers, and stored table information in the Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
+| Tuesday | I got acquainted with the Amazon Athena interface, set up database connections, and specified the query results location in an S3 bucket. | 23/06/2026 | 23/06/2026 |
+| Thursday | I practiced writing SQL queries in Athena to retrieve and summarize billing cost information stored on S3. | 25/06/2026 | 25/06/2026 |
 
+### CloudDoc Project:
+* **Operation Preparation:** Together with the team, I helped complete the project documentation, retested system APIs, finalized the user guide, and prepared for the group's internal demo.
 
-### Week 10 Achievements:
+### Achievements:
+* I supported the team in completing the layout checks for the Blog 3 post.
+* I initially applied AWS Glue and Athena to run simple queries.
+* Together with the team, I completed the documentation sets and prepared everything for the internal demo.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Lessons Learned:
+* The practice of querying helped me get used to using SQL to exploit storage data directly. Meanwhile, drafting the user guide with the team gave me more experience summarizing the technical details of the project.
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Next Week Plan:
+* I will learn about methods to enhance service access security via VPC Endpoints and carry out the team's trial product demo.

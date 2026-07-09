@@ -1,59 +1,37 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+date: 2026-06-26
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
+Trong tuần này, em tiếp tục tham gia Workshop và cùng nhóm chuẩn bị cho buổi demo dự án CloudDoc.
 
-### Mục tiêu tuần 11:
+### Mục tiêu tuần:
+* Tham gia đầy đủ các nội dung của Workshop theo kế hoạch.
+* Thực hành theo các tài liệu hướng dẫn và hoàn thành các nội dung tương ứng.
+* Chuẩn bị và tiến hành báo cáo demo dự án CloudDoc.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| --- | --- | --- | --- |
+| Thứ 7 | Em tham gia Workshop, thực hành theo hướng dẫn và tiến hành kiểm tra kết quả thực hành. | 27/06/2026 | 27/06/2026 |
+| Chủ nhật | Em tham gia Workshop và hoàn thành các bước thực hành theo hướng dẫn. | 28/06/2026 | 28/06/2026 |
+| Thứ 3 | Em tiếp tục tham gia thực hành Workshop và hoàn thành các nội dung theo hướng dẫn. | 30/06/2026 | 30/06/2026 |
+| Thứ 5 | Em thực hành Workshop, hoàn thành các nội dung còn lại và tiến hành kiểm tra kết quả thực hành. | 02/07/2026 | 02/07/2026 |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Trình bày sản phẩm:** Em cùng nhóm tiến hành kiểm tra lại toàn bộ chức năng của ứng dụng CloudDoc trước buổi demo, hoàn thiện những chuẩn bị còn thiếu và thực hiện buổi trình bày sản phẩm với mentor cùng các thành viên hướng dẫn.
 
+### Kết quả đạt được:
+* Em tham gia và hoàn thành đầy đủ các nội dung của Workshop theo kế hoạch.
+* Em cùng nhóm hoàn thành tốt buổi trình bày demo sản phẩm CloudDoc.
+* Em có thêm kinh nghiệm khi thực hành các nội dung của Workshop trên AWS.
 
-### Kết quả đạt được tuần 11:
+### Kinh nghiệm rút ra:
+* Qua quá trình thực hành Workshop, em có thêm kinh nghiệm khi làm việc với các dịch vụ AWS. Việc cùng nhóm chuẩn bị buổi demo cũng giúp em phối hợp công việc tốt hơn.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ thực hiện kiểm tra, hoàn thiện giao diện báo cáo Hugo cá nhân để chuẩn bị cho việc đẩy website lên môi trường trực tuyến.
+```

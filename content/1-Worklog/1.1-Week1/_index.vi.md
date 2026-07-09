@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 1"
-date: 2024-01-01
+date: 2026-04-17
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -9,51 +9,32 @@ pre: " <b> 1.1. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
+Tuần đầu tiên bước vào kỳ thực tập, em dành thời gian để hiểu nội dung chương trình và chuẩn bị môi trường chạy Hugo làm báo cáo.
 
-### Mục tiêu tuần 1:
+### Mục tiêu tuần:
+* Tham gia buổi hướng dẫn tìm hiểu chương trình First Cloud Journey.
+* Thiết lập môi trường chạy website báo cáo Hugo trên máy cá nhân.
+* Đăng ký tài khoản AWS Free Tier và thiết lập cảnh báo chi phí bằng AWS Budgets.
+* Tìm hiểu cách quản lý tài khoản và phân quyền cơ bản thông qua IAM.
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+### Công việc thực hiện trong tuần:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 7 | Em tham gia buổi giới thiệu chương trình thực tập First Cloud Journey và tiến hành cài đặt thành công môi trường chạy Hugo trên máy cá nhân. | 18/04/2026 | 18/04/2026 | Hướng dẫn chương trình |
+| Chủ nhật | Em đăng ký tài khoản AWS Free Tier và thực hiện cấu hình AWS Budgets để thiết lập các cảnh báo chi phí. | 19/04/2026 | 19/04/2026 | Học liệu Cloud Journey |
+| Thứ 3 | Em tìm hiểu và phân biệt 4 gói hỗ trợ kỹ thuật của AWS gồm Basic, Developer, Business và Enterprise. | 21/04/2026 | 21/04/2026 | Trang chủ AWS |
+| Thứ 5 | Em học cách sử dụng dịch vụ IAM để tạo User, Group và cấu hình các Policy cơ bản để phân quyền cho các tài khoản phụ thay vì sử dụng trực tiếp tài khoản Root. | 23/04/2026 | 23/04/2026 | Tài liệu IAM AWS |
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Dự án CloudDoc:
+* **Họp nhóm:** Em cùng các bạn lập nhóm thực tập và tham dự buổi họp kick-off thảo luận ban đầu. Cả nhóm thống nhất chọn xây dựng ứng dụng CloudDoc hỗ trợ quản lý và chia sẻ tài liệu trên đám mây. Đồng thời, nhóm thực hiện phân chia vai trò công việc cụ thể cho từng thành viên.
 
+### Kết quả đạt được:
+* Em chạy thử thành công trang báo cáo Hugo trên máy cá nhân.
+* Em cấu hình xong thông báo giới hạn chi tiêu trên tài khoản AWS bằng AWS Budgets.
+* Em tự tạo được IAM User phụ và gắn Policy quyền hạn hoạt động bình thường.
 
-### Kết quả đạt được tuần 1:
+### Kinh nghiệm rút ra:
+* Việc tham gia buổi hướng dẫn giúp em nắm bắt rõ lộ trình học tập và hình thức báo cáo. Đồng thời, buổi họp mặt ban đầu của nhóm giúp em phối hợp tốt cùng các bạn để thống nhất ý tưởng xây dựng ứng dụng CloudDoc.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+### Kế hoạch tuần tiếp theo:
+* Em sẽ tìm hiểu cách phân chia mạng ảo VPC và khởi tạo máy chủ EC2.
