@@ -35,7 +35,7 @@ Previously, I only knew about Cloud Quest for learning AWS, but after the sessio
 **Application**
 During my internship, I will continue using Cloud Quest to consolidate my knowledge and explore Floci to practice labs before deploying them on actual AWS execution environments.
 
-![Hình 3.1](image1.jpeg)
+![Hình 3.1](/images/4-EventParticipated/4.2-Event2/image1.jpeg)
 Hình 3.1
 
 #### 3.2 Hack to Learn – Learn to Hack
@@ -48,7 +48,7 @@ Through The Ballers Team's presentation, I understood that a Hackathon is not ju
 **Application**
 After the session, I gained more motivation to participate in competitions or real-world projects in the future. I also learned to plan and manage time better when working in groups, especially for projects with short developer cycles.
 
-![Hình 3.2](image2.jpeg)
+![Hình 3.2](/images/4-EventParticipated/4.2-Event2/image2.jpeg)
 Hình 3.2
 
 #### 3.3 What is DevOps? Why Should We Care?
@@ -61,7 +61,7 @@ Previously, I only heard about DevOps in university courses, but after Quân's p
 **Application**
 This knowledge provides me with clearer direction in learning about CI/CD and DevOps tools. I also hope to have the opportunity to apply these in AWS projects during my internship.
 
-![Hình 3.3](image3.jpeg)
+![Hình 3.3](/images/4-EventParticipated/4.2-Event2/image3.jpeg)
 Hình 3.3
 
 #### 3.4 Confidence – The Key to Growth
@@ -74,7 +74,7 @@ What impressed me most was that nobody is born confident. Confidence is built wh
 **Application**
 After the session, I will try to communicate proactively with mentors and supervisors when encountering issues I do not understand. I also want to participate in more activities to improve communication and teamwork skills.
 
-![Hình 3.4](image4.jpeg)
+![Hình 3.4](/images/4-EventParticipated/4.2-Event2/image4.jpeg)
 Hình 3.4
 
 #### 3.5 The Iceberg of Procrastination – When "Laziness" Is Just the Tip of Fear
@@ -87,7 +87,7 @@ After Uy's presentation, I realized that I sometimes procrastinate because I per
 **Application**
 During my internship, I will strive to plan my tasks and complete them step-by-step rather than waiting until the deadline. This will help me stay proactive and reduce work-related stress.
 
-![Hình 3.5](image5.jpeg)
+![Hình 3.5](/images/4-EventParticipated/4.2-Event2/image5.jpeg)
 Hình 3.5
 
 #### 4. Key Takeaways
@@ -95,5 +95,5 @@ The Meet Up on May 30, 2026, helped me learn many new things from my peers in th
 
 What I liked most about the Meet Up was that everyone shared from their own experience, making the content highly practical. After this session, I feel more motivated to continue learning AWS, participate in more activities, and strive to improve myself during my internship and future career.
 
-![Hình 4.1](image6.jpeg)
+![Hình 4.1](/images/4-EventParticipated/4.2-Event2/image6.jpeg)
 Hình 4.1

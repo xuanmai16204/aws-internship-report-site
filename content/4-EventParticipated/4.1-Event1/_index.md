@@ -35,7 +35,7 @@ Through Mr. Tinh's presentation, I realized that using AI is not just about aski
 **Application**
 After the session, I began organizing my AWS documentation by service, such as EC2, S3, IAM, and VPC, for easier study. Meanwhile, I also pay closer attention to prompt engineering when using ChatGPT or Amazon Q to obtain more accurate results.
 
-![Hình 3.1](image1.jpeg)
+![Hình 3.1](/images/4-EventParticipated/4.1-Event1/image1.jpeg)
 Hình 3.1
 
 #### 3.2 Friendly AI Assistant with Amazon Q
@@ -48,7 +48,7 @@ Through Mr. Hai Anh's presentation, I gained a better understanding of the diffe
 **Application**
 I can apply this knowledge by using Amazon Q or other AI tools during my studies and internship to look up AWS documentation, assist with coding, and explore new services.
 
-![Hình 3.2](image2.jpeg)
+![Hình 3.2](/images/4-EventParticipated/4.1-Event1/image2.jpeg)
 Hình 3.2
 
 #### 3.3 From Edge to Origin – CloudFront as Your Foundation
@@ -61,7 +61,7 @@ After the session, I understood more clearly how CloudFront works and the role o
 **Application**
 This knowledge gives me more experience when deploying websites on AWS. In subsequent projects, I can combine CloudFront with Amazon S3 or other services to optimize performance and deliver a better user experience.
 
-![Hình 3.3](image3.jpeg)
+![Hình 3.3](/images/4-EventParticipated/4.1-Event1/image3.jpeg)
 Hình 3.3
 
 #### 3.4 36 Hours with LotusHacks – Building UTMorpho from Idea to Reality
@@ -74,7 +74,7 @@ Through this session, I realized that time management and team coordination are 
 **Application**
 These experiences can be applied to school projects as well as my internship. When working in a team, I will place more emphasis on planning, allocating work logically, and communicating regularly to monitor progress.
 
-![Hình 3.4](image4.jpeg)
+![Hình 3.4](/images/4-EventParticipated/4.1-Event1/image4.jpeg)
 Hình 3.4
 
 #### 3.5 Deep Dive Talk – How LLM Actually Works
@@ -97,7 +97,7 @@ Through Ms. Vy's session, I learned about a novel direction in AI applications a
 **Application**
 Although I am currently only exposing myself to basic AI and AWS concepts, this session provides me with a direction to learn about Multi-Agent AI. In the future, I hope to apply this knowledge to real-world projects or post-graduation employment.
 
-![Hình 3.6](image5.jpeg)
+![Hình 3.6](/images/4-EventParticipated/4.1-Event1/image5.jpeg)
 Hình 3.6
 
 ### 4. Key Takeaways
@@ -105,5 +105,5 @@ After participating in AWS Community Day on May 23, 2026, I learned a wealth of 
 
 What impressed me most was that the speakers did not just introduce the technologies but shared real-world experiences from their work. This helped me better understand how enterprises apply AWS and AI to solve practical problems. After the event, I gained more motivation to continue learning, enhancing my Cloud and AI skills, and aiming to apply the acquired knowledge to my internship and future projects.
 
-![Hình 4.1](image6.jpeg)
+![Hình 4.1](/images/4-EventParticipated/4.1-Event1/image6.jpeg)
 Hình 4.1
