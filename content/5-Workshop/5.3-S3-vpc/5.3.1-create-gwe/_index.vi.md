@@ -1,40 +1,23 @@
 ---
-title : "Tạo một Gateway Endpoint"
-date : 2024-01-01 
-weight : 1
-chapter : false
-pre : " <b> 5.3.1 </b> "
+title: "Khởi tạo luồng upload"
+date: 2026-04-17
+weight: 1
+chapter: false
+pre: " <b> 5.3.1. </b> "
 ---
 
-1. Mở [Amazon VPC console](https://us-east-1.console.aws.amazon.com/vpc/home?region=us-east-1#Home:)
-2. Trong thanh điều hướng, chọn **Endpoints**, click **Create Endpoint**:
+#### Mục tiêu
 
-{{% notice note %}}
-Bạn sẽ thấy 6 điểm cuối VPC hiện có hỗ trợ AWS Systems Manager (SSM). Các điểm cuối này được Mẫu CloudFormation triển khai tự động cho workshop này.
-{{% /notice %}}
+Mục tiêu của bước này là khởi tạo một yêu cầu upload hợp lệ từ giao diện CloudDoc và thực hiện quá trình lưu tài liệu lên Amazon S3. Đây là bước đầu tiên trong quy trình upload, đồng thời giúp kết nối giữa frontend và backend hoạt động đúng theo thiết kế của hệ thống.
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/endpoints.png)
+#### Các bước thực hiện
 
-3. Trong Create endpoint console:
-+ Đặt tên cho endpoint: s3-gwe
-+ Trong service category, chọn **aws services**
+1. Người dùng chọn tài liệu, nhập tiêu đề, mô tả và các thông tin cần thiết trên giao diện.
+2. Frontend gửi yêu cầu đến backend để lấy presigned upload URL kèm theo thông tin của tài liệu.
+3. Backend kiểm tra dữ liệu đầu vào, tạo khóa lưu trữ và trả về presigned URL.
+4. Frontend sử dụng phương thức **PUT** để tải trực tiếp tài liệu lên Amazon S3.
+5. Sau khi upload thành công, frontend tiếp tục gửi yêu cầu lưu metadata vào cơ sở dữ liệu.
 
-![endpoint](/images/5-Workshop/5.3-S3-vpc/create-s3-gwe1.png)
+#### Kết quả mong đợi
 
-+ Trong **Services**, gõ "s3" trong hộp tìm kiếm và chọn dịch vụ với loại **gateway**
-
-![endpoint](/images/5-Workshop/5.3-S3-vpc/services.png)
-
-+ Đối với VPC, chọn **VPC Cloud** từ drop-down menu.
-+ Đối với Route tables, chọn bảng định tuyến mà đã liên kết với 2 subnets (lưu ý: đây không phải là bảng định tuyến chính cho VPC mà là bảng định tuyến thứ hai do CloudFormation tạo).
-
-![endpoint](/images/5-Workshop/5.3-S3-vpc/vpc.png)
-
-+ Đối với Policy, để tùy chọn mặc định là Full access để cho phép toàn quyền truy cập vào dịch vụ. Bạn sẽ triển khai VPC endpoint policy trong phần sau để chứng minh việc hạn chế quyền truy cập vào S3 bucket dựa trên các policies.
-
-![endpoint](/images/5-Workshop/5.3-S3-vpc/policy.png)
-
-+ Không thêm tag vào VPC endpoint.
-+ Click Create endpoint, click x sau khi nhận được thông báo tạo thành công.
-
-![endpoint](/images/5-Workshop/5.3-S3-vpc/complete.png)
+Sau khi hoàn thành bước này, tài liệu đã được lưu thành công trên Amazon S3 và metadata cũng được ghi nhận trong cơ sở dữ liệu. Đây là nền tảng để hệ thống tiếp tục thực hiện các bước kiểm duyệt, tìm kiếm và hiển thị tài liệu.

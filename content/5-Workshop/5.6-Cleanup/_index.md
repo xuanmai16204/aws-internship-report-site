@@ -1,32 +1,27 @@
 ---
-title : "Clean up"
-date : 2024-01-01
-weight : 6
-chapter : false
-pre : " <b> 5.6. </b> "
+title: "Updating Document Data"
+date: 2026-04-17
+weight: 6
+chapter: false
+pre: " <b> 5.6. </b> "
 ---
-Congratulations on completing this workshop! 
-In this workshop, you learned architecture patterns for accessing Amazon S3 without using the Public Internet. 
-+ By creating a gateway endpoint, you enabled direct communication between EC2 resources and Amazon S3, without traversing an Internet Gateway. 
-+ By creating an interface endpoint you extended S3 connectivity to resources running in your on-premises data center via AWS Site-to-Site VPN or Direct Connect. 
 
-#### clean up
-1. Navigate to Hosted Zones on the left side of Route 53 console. Click the name of *s3.us-east-1.amazonaws.com* zone. Click Delete and confirm deletion by typing delete. 
+#### Objectives
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+After approval, document information should be synchronized across the system so that users can search, preview, and download the latest version.
 
-2. Disassociate the Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+#### Update Steps
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+**Step 1:** Change the document status from **pending** to **approved**.
 
-4. Open the CloudFormation console  and delete the two CloudFormation Stacks that you created for this lab:
-+ PLOnpremSetup
-+ PLCloudSetup
+**Step 2:** Synchronize document information between the administration interface and the user interface.
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+**Step 3:** Verify that the updated document appears in the search results.
 
-5. Delete S3 buckets
-+ Open S3 console
-+ Choose the bucket we created for the lab, click and confirm empty. Click delete and confirm delete.
+![Updated Search Result](/images/5-Workshop/5.6-cleanup/anh1.png)
 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+**Step 4:** Confirm that preview and download functions work correctly for the approved document.
+
+#### Expected Results
+
+The document information is synchronized successfully, and users can access the latest approved version across the application.

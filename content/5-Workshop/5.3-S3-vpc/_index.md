@@ -1,18 +1,49 @@
 ---
-title : "Access S3 from VPC"
-date : 2024-01-01
-weight : 3
-chapter : false
-pre : " <b> 5.3. </b> "
+title: "Implementing the Document Upload and Storage Workflow"
+date: 2026-04-17
+weight: 3
+chapter: false
+pre: " <b> 5.3. </b> "
 ---
 
-#### Using Gateway endpoint
+#### Objectives
 
-In this section, you will create **a Gateway eendpoint** to access **Amazon S3** from **an EC2 instance**. **The Gateway endpoint** will allow upload an object to S3 buckets without using **the Public Internet**. To create an endpoint, you must specify the VPC in which you want to create the endpoint, and the service (in this case, S3) to which you want to establish the connection.
+This section describes how CloudDoc uploads documents to Amazon S3 by using presigned URLs. It illustrates the interaction between the frontend and backend while demonstrating the complete upload workflow.
 
-![overview](/images/5-Workshop/5.3-S3-vpc/diagram2.png)
+#### Main Components
 
-#### Content
+The upload workflow includes:
 
-- [Create gateway endpoint](5.3.1-create-gwe/)
-- [Test gateway endpoint](5.3.2-test-gwe/)
+- Frontend upload form.
+- Presigned upload URL API.
+- Amazon S3 bucket for document storage.
+- Database for storing document metadata.
+
+#### Typical Workflow
+
+Instead of sending the uploaded file through the backend, CloudDoc validates the request, generates a storage key and a presigned URL, then allows the browser to upload the file directly to Amazon S3. After the upload is completed, the frontend submits another request to save the document metadata in the database.
+
+#### Code Snippet
+
+![Generate Presigned URL](/images/5-Workshop/5.3-S3-vpc/anh1.png)
+
+![Presigned Upload API](/images/5-Workshop/5.3-S3-vpc/anh2.png)
+
+#### Upload Workflow
+
+**Step 1:** The user enters the document information and selects a file from the CloudDoc interface.
+
+![CloudDoc Upload Form](/images/5-Workshop/5.3-S3-vpc/anh3.png)
+
+**Step 2:** The system generates a presigned URL and uploads the selected file directly to Amazon S3.
+
+![Uploading File to Amazon S3](/images/5-Workshop/5.3-S3-vpc/anh4.png)
+
+**Step 3:** After the upload and metadata storage are completed, the system displays a success notification.
+
+![Upload Completed Successfully](/images/5-Workshop/5.3-S3-vpc/anh5.png)
+
+#### Next Steps
+
+1. Initialize the upload workflow.
+2. Verify storage and data synchronization.
