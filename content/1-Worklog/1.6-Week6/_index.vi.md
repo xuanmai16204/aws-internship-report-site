@@ -17,10 +17,10 @@ Tuần này em có cơ hội tham gia sự kiện lập trình thực tế và h
 ### Công việc thực hiện trong tuần:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 7 | Em tham gia sự kiện Event 1: LotusHacks 36 Hours Hackathon & Deep Dive Talk, ghi nhận những kiến thức chia sẻ, quan sát các dự án và có thêm góc nhìn để áp dụng cho CloudDoc. | 23/05/2026 | 23/05/2026 |
-| Chủ nhật | Em tìm hiểu các tính năng cơ bản của SSM, thực hành thử nghiệm công cụ Run Command và lưu trữ các biến ở Parameter Store. | 24/05/2026 | 24/05/2026 |
 | Thứ 3 | Em thực hành cấu hình Session Manager để truy cập an toàn máy chủ EC2 mà không cần kết nối bằng SSH. | 26/05/2026 | 26/05/2026 |
 | Thứ 5 | Em sử dụng công cụ Patch Manager để thiết lập dọn dẹp và tự động cập nhật các gói vá lỗi hệ điều hành định kỳ cho EC2. | 28/05/2026 | 28/05/2026 |
+| Thứ 7 | Em tham gia sự kiện Event 1: LotusHacks 36 Hours Hackathon & Deep Dive Talk, ghi nhận những kiến thức chia sẻ, quan sát các dự án và có thêm góc nhìn để áp dụng cho CloudDoc. | 23/05/2026 | 23/05/2026 |
+| Chủ nhật | Em tìm hiểu các tính năng cơ bản của SSM, thực hành thử nghiệm công cụ Run Command và lưu trữ các biến ở Parameter Store. | 24/05/2026 | 24/05/2026 |
 
 ### Dự án CloudDoc:
 * **Tích hợp Amazon S3:** Em cùng nhóm thử tích hợp bộ lưu trữ Amazon Simple Storage Service (Amazon S3), tìm hiểu AWS Software Development Kit (AWS SDK) và thực hành thử upload, download tài liệu cho dự án.

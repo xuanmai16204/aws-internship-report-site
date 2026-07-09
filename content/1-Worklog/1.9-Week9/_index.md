@@ -17,10 +17,10 @@ This week, I learned about methods to manage cloud costs and practiced exporting
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I collaborated with the team to check the translated content of Blog 2 after completion, reviewed its display on the website, and suggested formatting fixes. | 13/06/2026 | 13/06/2026 |
-| Sunday | I studied the concept of Cost Optimization and learned about Savings Plans options to help minimize server costs. | 14/06/2026 | 14/06/2026 |
 | Tuesday | I learned about the operation of Reserved Instances, comparing the differences between Standard and Convertible options. | 16/06/2026 | 16/06/2026 |
 | Thursday | I configured the export of Billing Reports and set up automatic saving of Export Usage Reports to S3. | 18/06/2026 | 18/06/2026 |
+| Saturday | I collaborated with the team to check the translated content of Blog 2 after completion, reviewed its display on the website, and suggested formatting fixes. | 13/06/2026 | 13/06/2026 |
+| Sunday | I studied the concept of Cost Optimization and learned about Savings Plans options to help minimize server costs. | 14/06/2026 | 14/06/2026 |
 
 ### CloudDoc Project:
 * **System Bug Fixing:** Together with the team, I resolved application bugs, checked the document upload feature, verified CORS configuration, and completed the document storage feature.

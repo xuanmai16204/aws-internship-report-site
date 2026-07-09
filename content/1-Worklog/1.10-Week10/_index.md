@@ -17,10 +17,10 @@ This week, I switched to learning about big data analysis services on AWS and su
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I collaborated with the team to check the contents of Blog 3 after the translation was completed, reviewed its display, and supported refining the post on Hugo. | 20/06/2026 | 20/06/2026 |
-| Sunday | I studied how AWS Glue operates, set up data scanning with Glue Crawlers, and stored table information in the Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
 | Tuesday | I got acquainted with the Amazon Athena interface, set up database connections, and specified the query results location in an S3 bucket. | 23/06/2026 | 23/06/2026 |
 | Thursday | I practiced writing SQL queries in Athena to retrieve and summarize billing cost information stored on S3. | 25/06/2026 | 25/06/2026 |
+| Saturday | I collaborated with the team to check the contents of Blog 3 after the translation was completed, reviewed its display, and supported refining the post on Hugo. | 20/06/2026 | 20/06/2026 |
+| Sunday | I studied how AWS Glue operates, set up data scanning with Glue Crawlers, and stored table information in the Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
 
 ### CloudDoc Project:
 * **Operation Preparation:** Together with the team, I helped complete the project documentation, retested system APIs, finalized the user guide, and prepared for the group's internal demo.

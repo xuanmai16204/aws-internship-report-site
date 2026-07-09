@@ -32,7 +32,7 @@ To help the First Cloud AI Journey program continue to grow and provide more val
 - **More Q&A Sessions**: Add short mid-week check-in meetings to help developmental groups resolve technical issues or blockers.
 - **More Deployment Practice**: Offer direct guidance on containerization, CI/CD pipelines, and application deployment strategies targeting production-ready EC2 environments.
 - **More Cloud Cost Optimization Examples**: Provide deep dives into analyzing AWS calculator pricing structures and managing budgets efficiently.
-- **More Architecture Review Sessions**: Introduce earlier system review check-ups to help student groups adjust system topologies before writing code.
+
 
 ## Acknowledgements
 

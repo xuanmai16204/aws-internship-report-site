@@ -16,10 +16,10 @@ Bước sang tuần làm việc thứ hai, em tập trung tìm hiểu các kiế
 ### Công việc thực hiện trong tuần:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 7 | Em thực hành cấu hình mạng VPC, chia Subnet và kết nối Internet Gateway. | 25/04/2026 | 25/04/2026 |
-| Chủ nhật | Em làm bài tập so sánh sự khác nhau về cơ chế bảo mật của Security Group và Network ACL. | 26/04/2026 | 26/04/2026 |
 | Thứ 3 | Em tìm hiểu cấu hình máy chủ ảo EC2, chọn loại máy chủ (Instance Type), AMI và đính kèm ổ chứa dữ liệu EBS. | 28/04/2026 | 28/04/2026 |
 | Thứ 5 | Em thực hành kết nối đến EC2 bằng SSH qua Key Pair và gán thử địa chỉ Elastic IP. | 30/04/2026 | 30/04/2026 |
+| Thứ 7 | Em thực hành cấu hình mạng VPC, chia Subnet và kết nối Internet Gateway. | 25/04/2026 | 25/04/2026 |
+| Chủ nhật | Em làm bài tập so sánh sự khác nhau về cơ chế bảo mật của Security Group và Network ACL. | 26/04/2026 | 26/04/2026 |
 
 ### Dự án CloudDoc:
 * **Phân tích yêu cầu:** Em phối hợp cùng nhóm thực hiện phân tích các yêu cầu nghiệp vụ, thảo luận luồng người dùng và chuẩn bị tài liệu yêu cầu cho ứng dụng CloudDoc.

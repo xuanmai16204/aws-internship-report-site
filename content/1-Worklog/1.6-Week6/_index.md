@@ -17,10 +17,10 @@ This week, I had the opportunity to participate in a real-world programming even
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I participated in Event 1: LotusHacks 36 Hours Hackathon & Deep Dive Talk, noting down shared knowledge, observing projects, and gaining more perspectives to apply to CloudDoc. | 23/05/2026 | 23/05/2026 |
-| Sunday | I learned about the basic features of SSM, practiced using the Run Command tool, and stored variables in Parameter Store. | 24/05/2026 | 24/05/2026 |
 | Tuesday | I practiced configuring Session Manager to securely access EC2 servers without SSH connections. | 26/05/2026 | 26/05/2026 |
 | Thursday | I used the Patch Manager tool to set up cleanups and automatic periodic updates of operating system security patches for EC2. | 28/05/2026 | 28/05/2026 |
+| Saturday | I participated in Event 1: LotusHacks 36 Hours Hackathon & Deep Dive Talk, noting down shared knowledge, observing projects, and gaining more perspectives to apply to CloudDoc. | 23/05/2026 | 23/05/2026 |
+| Sunday | I learned about the basic features of SSM, practiced using the Run Command tool, and stored variables in Parameter Store. | 24/05/2026 | 24/05/2026 |
 
 ### CloudDoc Project:
 * **Amazon S3 Integration:** Together with the team, I tested the integration of the Amazon Simple Storage Service (Amazon S3) storage service, learned about the AWS Software Development Kit (AWS SDK), and practiced uploading and downloading documents for the project.

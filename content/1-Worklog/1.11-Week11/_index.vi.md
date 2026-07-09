@@ -16,10 +16,10 @@ Trong tuần này, em tiếp tục tham gia Workshop và cùng nhóm chuẩn b�
 ### Công việc thực hiện trong tuần:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 7 | Em tham gia Workshop, thực hành theo hướng dẫn và tiến hành kiểm tra kết quả thực hành. | 27/06/2026 | 27/06/2026 |
-| Chủ nhật | Em tham gia Workshop và hoàn thành các bước thực hành theo hướng dẫn. | 28/06/2026 | 28/06/2026 |
 | Thứ 3 | Em tiếp tục tham gia thực hành Workshop và hoàn thành các nội dung theo hướng dẫn. | 30/06/2026 | 30/06/2026 |
 | Thứ 5 | Em thực hành Workshop, hoàn thành các nội dung còn lại và tiến hành kiểm tra kết quả thực hành. | 02/07/2026 | 02/07/2026 |
+| Thứ 7 | Em tham gia Workshop, thực hành theo hướng dẫn và tiến hành kiểm tra kết quả thực hành. | 27/06/2026 | 27/06/2026 |
+| Chủ nhật | Em tham gia Workshop và hoàn thành các bước thực hành theo hướng dẫn. | 28/06/2026 | 28/06/2026 |
 
 ### Dự án CloudDoc:
 * **Trình bày sản phẩm:** Em cùng nhóm tiến hành kiểm tra lại toàn bộ chức năng của ứng dụng CloudDoc trước buổi demo, hoàn thiện những chuẩn bị còn thiếu và thực hiện buổi trình bày sản phẩm với mentor cùng các thành viên hướng dẫn.

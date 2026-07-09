@@ -17,10 +17,10 @@ Tuần này em chuyển sang tìm hiểu về các dịch vụ phân tích dữ 
 ### Công việc thực hiện trong tuần:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 7 | Em phối hợp cùng nhóm kiểm tra nội dung sau khi bài dịch Blog 3 hoàn thành, rà soát cách hiển thị và hỗ trợ hoàn thiện bài viết trên Hugo. | 20/06/2026 | 20/06/2026 |
-| Chủ nhật | Em tìm hiểu cách hoạt động của AWS Glue, thiết lập quét dữ liệu bằng Glue Crawler và lưu thông tin bảng vào Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
 | Thứ 3 | Em làm quen giao diện Amazon Athena, thiết lập liên kết cơ sở dữ liệu và chỉ định vị trí lưu kết quả tại S3 bucket. | 23/06/2026 | 23/06/2026 |
 | Thứ 5 | Em thực hành viết các câu lệnh SQL trong Athena để truy vấn và thống kê các thông tin hóa đơn chi phí lưu trên S3. | 25/06/2026 | 25/06/2026 |
+| Thứ 7 | Em phối hợp cùng nhóm kiểm tra nội dung sau khi bài dịch Blog 3 hoàn thành, rà soát cách hiển thị và hỗ trợ hoàn thiện bài viết trên Hugo. | 20/06/2026 | 20/06/2026 |
+| Chủ nhật | Em tìm hiểu cách hoạt động của AWS Glue, thiết lập quét dữ liệu bằng Glue Crawler và lưu thông tin bảng vào Glue Data Catalog. | 21/06/2026 | 21/06/2026 |
 
 ### Dự án CloudDoc:
 * **Chuẩn bị vận hành:** Em cùng nhóm phối hợp hoàn thiện tài liệu dự án, kiểm tra lại các API hệ thống, hoàn thiện tài liệu hướng dẫn sử dụng và chuẩn bị cho buổi demo nội bộ của nhóm.

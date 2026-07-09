@@ -18,10 +18,10 @@ During the final week of the internship, I focused on finishing the Hugo report 
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I completed the Hugo website interface, adjusted the layout, and checked page display. | 04/07/2026 | 04/07/2026 |
-| Sunday | I checked all Vietnamese and English content to ensure the pages are displayed correctly. | 05/07/2026 | 05/07/2026 |
 | Tuesday | I cleaned up unused files on Hugo and checked the build logs to ensure the website is working normally. | 07/07/2026 | 07/07/2026 |
 | Thursday | I deployed the Hugo report website to GitHub Pages and double-checked it afterwards. | 09/07/2026 | 09/07/2026 |
+| Saturday | I completed the Hugo website interface, adjusted the layout, and checked page display. | 04/07/2026 | 04/07/2026 |
+| Sunday | I checked all Vietnamese and English content to ensure the pages are displayed correctly. | 05/07/2026 | 05/07/2026 |
 | Friday | I completed the self-evaluation and finalized the end-of-term internship report. | 10/07/2026 | 10/07/2026 |
 
 ### CloudDoc Project:

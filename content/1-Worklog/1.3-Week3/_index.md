@@ -17,10 +17,10 @@ A new week begins; I switched to learning about server security permission deleg
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I configured IAM Roles for EC2 servers to delegate secure permissions for applications when accessing resources. | 02/05/2026 | 02/05/2026 |
-| Sunday | I learned about bucket creation, naming rules, access permissions configuration, and S3 Storage Classes. | 03/05/2026 | 03/05/2026 |
 | Tuesday | I practiced static website hosting and wrote Bucket Policies to assign permissions for S3 access. | 05/05/2026 | 05/05/2026 |
 | Thursday | I learned how to enable S3 Versioning, configured Object Lifecycle rules, and heard about Cross-Region Replication mechanisms. | 07/05/2026 | 07/05/2026 |
+| Saturday | I configured IAM Roles for EC2 servers to delegate secure permissions for applications when accessing resources. | 02/05/2026 | 02/05/2026 |
+| Sunday | I learned about bucket creation, naming rules, access permissions configuration, and S3 Storage Classes. | 03/05/2026 | 03/05/2026 |
 
 ### CloudDoc Project:
 * **Database Design:** Together with the team, I discussed data structures, identified key tables, and discussed the preliminary system architecture for the CloudDoc application.

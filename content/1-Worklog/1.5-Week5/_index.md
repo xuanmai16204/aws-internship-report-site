@@ -17,10 +17,10 @@ This week, I spent time learning how to manage domain names online and configuri
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Saturday | I practiced declaring domain names in Route 53, configuring Hosted Zones, creating DNS records, and testing the Failover Routing mechanism. | 16/05/2026 | 16/05/2026 |
-| Sunday | I installed AWS CLI on my personal computer, configured access Credentials, and specified the default Region. | 17/05/2026 | 17/05/2026 |
 | Tuesday | I configured CloudWatch to monitor EC2 performance and set up an Alarm when CPU exceeds the threshold. | 19/05/2026 | 19/05/2026 |
 | Thursday | I learned about the CloudWatch Logs service, created a Log Group, and installed the Log Agent on the server. | 21/05/2026 | 21/05/2026 |
+| Saturday | I practiced declaring domain names in Route 53, configuring Hosted Zones, creating DNS records, and testing the Failover Routing mechanism. | 16/05/2026 | 16/05/2026 |
+| Sunday | I installed AWS CLI on my personal computer, configured access Credentials, and specified the default Region. | 17/05/2026 | 17/05/2026 |
 
 ### CloudDoc Project:
 * **Project Launch on Git:** Together with the team, I created the official GitHub Repository for the CloudDoc project, discussed and agreed on team working rules, and distributed tasks to members.

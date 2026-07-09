@@ -1,46 +1,23 @@
 ---
-title: "Các events đã tham gia"
-date: 2024-01-01
+title: "Các sự kiện đã tham gia"
+date: 2026-04-17
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Trong quá trình thực tập tại Công ty TNHH Amazon Web Services Việt Nam, em đã có cơ hội tham gia các sự kiện công nghệ, các buổi workshop thực hành cũng như các phiên chia sẻ kiến thức chuyên sâu trong khuôn khổ chương trình First Cloud AI Journey. Những hoạt động bổ ích này đã giúp em củng cố sâu sắc kiến thức về hạ tầng dịch vụ AWS, thấu hiểu cấu trúc thiết kế kiến trúc đám mây và tích lũy được nhiều kinh nghiệm phát triển phần mềm thực tế. Đồng thời, đây cũng là dịp để em trực tiếp giao lưu và học hỏi từ các mentors cũng như các kỹ sư giải pháp giàu kinh nghiệm.
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+### [Sự kiện 1: AWS Community Day – First Cloud AI Journey](4.1-Event1/)
+- **Tên sự kiện:** AWS Community Day – First Cloud AI Journey
+- **Thời gian:** 23/05/2026
+- **Địa điểm:** Văn phòng AWS Việt Nam
+- **Vai trò:** Người tham dự
+- **Nội dung chính:** Tiếp cận các nền tảng kiến thức AWS cơ bản, xu hướng thiết kế kiến trúc hệ thống đám mây hiệu năng cao và định hướng phát triển ứng dụng CloudDoc.
 
-
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
-
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
-
-
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
-
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
-
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
-
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
-
+### [Sự kiện 2: Meet Up – First Cloud AI Journey](4.2-Event2/)
+- **Tên sự kiện:** Meet Up – First Cloud AI Journey
+- **Thời gian:** 30/05/2026
+- **Địa điểm:** Văn phòng AWS Việt Nam
+- **Vai trò:** Người tham dự
+- **Nội dung chính:** Thảo luận chuyên sâu về tiến độ dự án CloudDoc, hoàn thiện tích hợp kết nối Frontend/Backend, các phương thức xây dựng và deploy trên hạ tầng AWS, đồng thời trực tiếp trao đổi Q&A và nhận góp ý từ mentors.
