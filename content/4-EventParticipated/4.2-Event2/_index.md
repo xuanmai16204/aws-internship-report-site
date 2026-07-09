@@ -1,126 +1,99 @@
 ---
-title: "Event 2"
-date: 2024-01-01
+title: "Meet Up – First Cloud AI Journey"
+date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-
 {{% notice warning %}}
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
 {{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# SUMMARY REPORT
+# Meet Up – First Cloud AI Journey
+Participation Time: 30/05/2026
 
-### Event Objectives
+### 1. Event Objectives
+The Meet Up was organized to allow participants in the First Cloud AI Journey program to share the knowledge and experience they acquired during their internship. Each presentation focused on relatable topics such as learning AWS, DevOps, Hackathons, or personal development skills. Through this, attendees gained perspectives directly from their peers and learned experiences that they could apply to both their academic studies and internships.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### 2. Speakers
+Huỳnh Thái Linh 
+The Ballers Team 
+Trần Minh Quân 
+Nguyễn Thị Quỳnh Như 
+Phạm Khắc Uy 
 
-### Speakers
+### 3. Sharing Sessions Content
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+#### 3.1 Level Up Your AWS Skills with Cloud Quest and Floci
+**Main Content**
+Opening the program, Huỳnh Thái Linh shared about two tools that support learning AWS: AWS Cloud Quest and Floci. Linh introduced Cloud Quest as a game-based learning platform that allows learners to practice and get familiar with AWS services through real-world quests. In addition, Linh shared about Floci - a tool that simulates AWS services directly on a computer, suitable for those who want to practice without incurring charges on a real AWS account. Besides introducing the tools, Linh also shared experiences on how to avoid unnecessary costs during the learning process.
 
-### Key Highlights
+**What I Learned**
+Previously, I only knew about Cloud Quest for learning AWS, but after the session, I learned about Floci and how to combine these two tools to practice more effectively. I also understood that it is not strictly necessary to perform operations directly on the live AWS console to practice foundational concepts.
 
-#### Identifying the drawbacks of legacy application architecture
+**Application**
+During my internship, I will continue using Cloud Quest to consolidate my knowledge and explore Floci to practice labs before deploying them on actual AWS execution environments.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+![Hình 3.1](image1.jpeg)
+Hình 3.1
 
-#### Transitioning to modern application architecture – Microservices
+#### 3.2 Hack to Learn – Learn to Hack
+**Main Content**
+Next, The Ballers Team shared operational experiences when participating in Hackathons. They introduced the process from forming ideas, dividing tasks among team members to finalizing the product within a limited timeframe. What I found interesting was that the team did not only talk about the results achieved, but also shared the difficulties they encountered during the process, including shifting ideas, time pressure, and how members coordinated to complete the product on schedule.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+**What I Learned**
+Through The Ballers Team's presentation, I understood that a Hackathon is not just a coding competition but also an environment to hone teamwork and problem-solving skills. A good idea is more effective if the group knows how to allocate work logically and support each other through difficulties.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+**Application**
+After the session, I gained more motivation to participate in competitions or real-world projects in the future. I also learned to plan and manage time better when working in groups, especially for projects with short developer cycles.
 
-#### Domain-Driven Design (DDD)
+![Hình 3.2](image2.jpeg)
+Hình 3.2
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### 3.3 What is DevOps? Why Should We Care?
+**Main Content**
+In the next session, Trần Minh Quân introduced DevOps and explained why DevOps is increasingly adopted by organizations in the software development lifecycle. Quân presented the workflow from development and testing to deployment, explaining the role of CI/CD in automating and shortening time-to-market. In addition to basic concepts, Quân shared real-world examples to help everyone visualize how DevOps is applied in enterprises.
 
-#### Event-Driven Architecture
+**What I Learned**
+Previously, I only heard about DevOps in university courses, but after Quân's presentation, I realized that DevOps is not just about using tools but is a collaborative methodology across groups to make software development more efficient.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+**Application**
+This knowledge provides me with clearer direction in learning about CI/CD and DevOps tools. I also hope to have the opportunity to apply these in AWS projects during my internship.
 
-#### Compute Evolution
+![Hình 3.3](image3.jpeg)
+Hình 3.3
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### 3.4 Confidence – The Key to Growth
+**Main Content**
+In the subsequent session, Nguyễn Thị Quỳnh Như spoke about confidence and its impact on learning and personal development. Như shared that everyone has moments of feeling inadequate or hesitant to try new things, but maintaining that mindset makes growth extremely difficult. Drawing from personal experiences, Như encouraged everyone to step out of their comfort zones, learn proactively, and view failures as opportunities to accumulate experience.
 
-#### Amazon Q Developer
+**What I Learned**
+What impressed me most was that nobody is born confident. Confidence is built when one is willing to learn, try, and not be afraid of making mistakes. Như's presentation gave me more motivation to be more proactive during my studies and internship.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+**Application**
+After the session, I will try to communicate proactively with mentors and supervisors when encountering issues I do not understand. I also want to participate in more activities to improve communication and teamwork skills.
 
-### Key Takeaways
+![Hình 3.4](image4.jpeg)
+Hình 3.4
 
-#### Design Mindset
+#### 3.5 The Iceberg of Procrastination – When "Laziness" Is Just the Tip of Fear
+**Main Content**
+Closing the program, Phạm Khắc Uy shared a highly interesting perspective on procrastination using the "iceberg" model. Uy suggested that many people think procrastination stems from laziness, when in reality, the root cause may be fear of failure, fear of judgment, or lack of confidence to begin. Using relatable examples from studying and working, Uy helped everyone reflect on the causes of delay in meeting their goals.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+**What I Learned**
+After Uy's presentation, I realized that I sometimes procrastinate because I perceive tasks as too difficult or want everything to be perfect before starting. Instead, I think it is more effective to start with small tasks first and gradually build scale.
 
-#### Technical Architecture
+**Application**
+During my internship, I will strive to plan my tasks and complete them step-by-step rather than waiting until the deadline. This will help me stay proactive and reduce work-related stress.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+![Hình 3.5](image5.jpeg)
+Hình 3.5
 
-#### Modernization Strategy
+#### 4. Key Takeaways
+The Meet Up on May 30, 2026, helped me learn many new things from my peers in the First Cloud AI Journey program. Each sharing was rooted in real experiences, making it relatable and easy to comprehend. Besides knowledge about AWS, DevOps, and Hackathons, I learned about teamwork, time management, and building confidence in my academic path.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+What I liked most about the Meet Up was that everyone shared from their own experience, making the content highly practical. After this session, I feel more motivated to continue learning AWS, participate in more activities, and strive to improve myself during my internship and future career.
 
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Hình 4.1](image6.jpeg)
+Hình 4.1

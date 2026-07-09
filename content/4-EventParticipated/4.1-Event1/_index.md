@@ -1,126 +1,109 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "AWS Community Day – First Cloud AI Journey"
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
-
 {{% notice warning %}}
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
 {{% /notice %}}
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# SUMMARY REPORT
+# AWS Community Day – First Cloud AI Journey
 
-### Event Objectives
+### 1. Event Objectives
+AWS Community Day was organized to share new knowledge and trends in Cloud Computing, Generative AI, and software development on the AWS platform. Through sessions by tech industry experts, attendees had the opportunity to access practical experiences, better understand how enterprises apply AWS services and AI to their work, and gain extra knowledge to apply to both their academic studies and internships.
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### 2. Speakers
+Trương Anh Tịnh – Platform Engineer, GoTymeX 
+Phạm Ngọc Hải Anh – AWS Community Builder 
+Nguyễn Tuấn Thịnh – DevOps Engineer 
+Team VIB 
+Đào Đức – Solution Architect 
+Lâm Cát Vy – Senior Business Systems Analyst, VPBank 
 
-### Speakers
+### 3. Sharing Sessions Content
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+#### 3.1 Build Second Brain – Context Is Everything
+**Main Content**
+Opening the program, Mr. Trương Anh Tịnh (Platform Engineer at GoTymeX) shared how to build a Second Brain to manage personal knowledge effectively. According to him, context is crucial when working with AI because it determines the quality of the outputs AI generated. He also introduced methods to organize files, notes, and store information to enable faster search during study or work.
 
-### Key Highlights
+**What I Learned**
+Through Mr. Tinh's presentation, I realized that using AI is not just about asking questions, but also knowing how to provide sufficient context so the AI correctly understands the requirements. Additionally, managing documents by topic helps save time when looking up knowledge or working on projects.
 
-#### Identifying the drawbacks of legacy application architecture
+**Application**
+After the session, I began organizing my AWS documentation by service, such as EC2, S3, IAM, and VPC, for easier study. Meanwhile, I also pay closer attention to prompt engineering when using ChatGPT or Amazon Q to obtain more accurate results.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+![Hình 3.1](image1.jpeg)
+Hình 3.1
 
-#### Transitioning to modern application architecture – Microservices
+#### 3.2 Friendly AI Assistant with Amazon Q
+**Main Content**
+In this session, Mr. Phạm Ngọc Hải Anh (AWS Community Builder) introduced Amazon Q and how to build AI assistants that support enterprises. He shared how Amazon Q can connect to multiple internal data sources to search for information, support coding, and answer questions in natural language. Additionally, he emphasized the importance of access control and data security when deploying AI in enterprises.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+**What I Learned**
+Through Mr. Hai Anh's presentation, I gained a better understanding of the differences between Amazon Q and general public AI chatbots. I also learned about how AI can support developers in searching documentation, explaining source code, and boosting work efficiency.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+**Application**
+I can apply this knowledge by using Amazon Q or other AI tools during my studies and internship to look up AWS documentation, assist with coding, and explore new services.
 
-#### Domain-Driven Design (DDD)
+![Hình 3.2](image2.jpeg)
+Hình 3.2
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### 3.3 From Edge to Origin – CloudFront as Your Foundation
+**Main Content**
+In the next session, Mr. Nguyễn Tuấn Thịnh (DevOps Engineer) introduced Amazon CloudFront and how this service accelerates website access via the CDN system. He explained how data is cached at Edge Locations so users in different regions can access pages faster. He also shared practical experiences in cache configuration, performance optimization, and server load reduction when deploying applications on AWS.
 
-#### Event-Driven Architecture
+**What I Learned**
+After the session, I understood more clearly how CloudFront works and the role of cache in improving page load speeds. Previously, I only knew that CloudFront made websites faster, but after Mr. Thinh's explanation, I grasped the underlying mechanics and why many enterprises use this service.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+**Application**
+This knowledge gives me more experience when deploying websites on AWS. In subsequent projects, I can combine CloudFront with Amazon S3 or other services to optimize performance and deliver a better user experience.
 
-#### Compute Evolution
+![Hình 3.3](image3.jpeg)
+Hình 3.3
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### 3.4 36 Hours with LotusHacks – Building UTMorpho from Idea to Reality
+**Main Content**
+In the VIB team's session, they recounted their journey participating in the LotusHacks competition and the process of building the UTMorpho product in just 36 hours. The team shared how they formed the idea, divided tasks among members, and finalized the product in a short time. What impressed me the most was that the team always prioritized completing essential functions first to ensure the product could operate stably before adding other features.
 
-#### Amazon Q Developer
+**What I Learned**
+Through this session, I realized that time management and team coordination are critical factors when executing a project. Besides programming skills, communication and mutual support also contribute to the team completing the product on time.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+**Application**
+These experiences can be applied to school projects as well as my internship. When working in a team, I will place more emphasis on planning, allocating work logically, and communicating regularly to monitor progress.
 
-### Key Takeaways
+![Hình 3.4](image4.jpeg)
+Hình 3.4
 
-#### Design Mindset
+#### 3.5 Deep Dive Talk – How LLM Actually Works
+**Main Content**
+In this session, Mr. Đào Đức (Solution Architect) helped participants understand how Large Language Models (LLMs) actually work. He explained how AI processes data, how models predict the next token, and the role of parameters like Temperature in generating output. Additionally, he shared why AI can yield different results for the same question, and how to write prompts so the model correctly understands user requirements.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+**What I Learned**
+Through Mr. Duc's presentation, I acquired a clearer understanding of the inner workings of AI models, which I previously used without knowing how they operated behind the scenes. I also learned about parameters affecting response quality and how to construct prompts for more accurate AI feedback.
 
-#### Technical Architecture
+**Application**
+This knowledge will help me use ChatGPT and Amazon Q more effectively during studies and my internship. When looking up documentation or seeking coding assistance, I will focus more on how prompts are structured to obtain the desired outcomes.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+#### 3.6 Enterprise-Grade Multi-Agent System – The Case of Startup Credit Scoring
+**Main Content**
+Closing the program, Ms. Lâm Cát Vy (Senior Business Systems Analyst at VPBank) shared about the Multi-Agent AI model through a startup credit scoring case study. She introduced how multiple AI Agents can collaborate to handle different tasks instead of relying on a single AI model. Furthermore, she emphasized the importance of data security, access control, and scalability when implementing AI in enterprise environments.
 
-#### Modernization Strategy
+**What I Learned**
+Through Ms. Vy's session, I learned about a novel direction in AI applications and understood that building enterprise AI systems is not only about accuracy but also ensuring security, management, and long-term operations.
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+**Application**
+Although I am currently only exposing myself to basic AI and AWS concepts, this session provides me with a direction to learn about Multi-Agent AI. In the future, I hope to apply this knowledge to real-world projects or post-graduation employment.
 
-### Applying to Work
+![Hình 3.6](image5.jpeg)
+Hình 3.6
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+### 4. Key Takeaways
+After participating in AWS Community Day on May 23, 2026, I learned a wealth of new knowledge about AI, Cloud Computing, and AWS services through the sessions delivered by speakers with abundant practical experience. Each topic provided different perspectives, from using AI effectively and optimizing systems with CloudFront to modern AI architectures in enterprises.
 
-### Event Experience
+What impressed me most was that the speakers did not just introduce the technologies but shared real-world experiences from their work. This helped me better understand how enterprises apply AWS and AI to solve practical problems. After the event, I gained more motivation to continue learning, enhancing my Cloud and AI skills, and aiming to apply the acquired knowledge to my internship and future projects.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+![Hình 4.1](image6.jpeg)
+Hình 4.1
