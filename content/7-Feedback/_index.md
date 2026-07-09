@@ -1,47 +1,45 @@
 ---
 title: "Sharing and Feedback"
-date: 2024-01-01
+date: 2026-04-17
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-
 {{% notice warning %}}
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
 {{% /notice %}}
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
+# Feedback and Suggestions
 
-### Overall Evaluation
+## Experience with the Internship Program
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+The **First Cloud AI Journey** program has been a fantastic and highly enriching experience throughout my internship. Having the opportunity to work at Amazon Web Services Viet Nam Company Limited, I received exceptional support from the mentors and the program admin team. The structured AWS workshops and informative technical blogs provided me with systematic, hands-on knowledge of cloud environments. When developing the CloudDoc project, the encouragement from mentors and the collaborative spirit of my teammates set up an open, motivating, and productive workspace.
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+## What I Learned
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+Throughout this program, I have acquired several valuable technical skills and team experiences:
+- **AWS Fundamentals**: Gained a solid understanding of core cloud services, including AWS EC2, S3, RDS, CloudFront, SQS, SNS, Glacier, and CloudWatch.
+- **Teamwork**: Learned how to effectively assign roles, actively listen, and collaborate with team members to achieve project development goals.
+- **Software Development Workflow**: Experienced the lifecycle of a software product, from proposal design and architecture definition to active coding and testing.
+- **Frontend/Backend Integration**: Grasped the communication flow between the frontend interface, JSON APIs, and cloud databases.
+- **Cloud Architecture**: Learned the principles of designing highly available, secure, and cost-efficient cloud architectures.
+- **Documentation**: Developed the habit of preparing clear, structured, and informative technical codebases, reports, and team wikis.
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+## Suggestions for Improvement
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+To help the First Cloud AI Journey program continue to grow and provide more value to future cohorts, I would like to offer the following constructive suggestions:
+- **More Hands-on Labs**: Introduce guided sandboxes or lab environments where students can practice deploying AWS configurations directly on the platform.
+- **More Q&A Sessions**: Add short mid-week check-in meetings to help developmental groups resolve technical issues or blockers.
+- **More Deployment Practice**: Offer direct guidance on containerization, CI/CD pipelines, and application deployment strategies targeting production-ready EC2 environments.
+- **More Cloud Cost Optimization Examples**: Provide deep dives into analyzing AWS calculator pricing structures and managing budgets efficiently.
+- **More Architecture Review Sessions**: Introduce earlier system review check-ups to help student groups adjust system topologies before writing code.
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+## Acknowledgements
 
----
+I would like to express my sincere appreciation to **Amazon Web Services Viet Nam Company Limited** and the organizers of the **First Cloud AI Journey** for offering this outstanding internship.
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+Special thanks go to my **Mentors** for their patience, detailed advice, and invaluable guidance throughout the project. I also thank my **CloudDoc Project Team** members for their constant collaboration and support, which allowed us to complete the project successfully.
 
----
+Finally, I wish to thank the faculty members of the Information Technology Department at **HUTECH** university for their academic guidance, administrative support, and close supervision during this period.
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+Although the internship has concluded, the experience and knowledge I gained will serve as crucial assets for my future engineering career. I am committed to continuous learning and professional development to build upon the valuable foundations established here.

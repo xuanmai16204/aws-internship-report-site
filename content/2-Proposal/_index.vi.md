@@ -11,45 +11,36 @@ pre: " <b> 2. </b> "
 
 Tại phần này, bạn cần tóm tắt các nội dung trong workshop mà bạn **dự tính** sẽ làm.
 
-# IoT Weather Platform for Lab Research  
-## Giải pháp AWS Serverless hợp nhất cho giám sát thời tiết thời gian thực  
+# CloudDoc  
+## Hệ thống quản lý và chia sẻ tài liệu trực tuyến trên nền tảng AWS  
 
 ### 1. Tóm tắt điều hành  
-IoT Weather Platform được thiết kế dành cho nhóm *ITea Lab* tại TP. Hồ Chí Minh nhằm nâng cao khả năng thu thập và phân tích dữ liệu thời tiết. Nền tảng hỗ trợ tối đa 5 trạm thời tiết, có khả năng mở rộng lên 10–15 trạm, sử dụng thiết bị biên Raspberry Pi kết hợp cảm biến ESP32 để truyền dữ liệu qua MQTT. Nền tảng tận dụng các dịch vụ AWS Serverless để cung cấp giám sát thời gian thực, phân tích dự đoán và tiết kiệm chi phí, với quyền truy cập giới hạn cho 5 thành viên phòng lab thông qua Amazon Cognito.  
+CloudDoc là hệ thống quản lý và chia sẻ tài liệu học tập dành cho sinh viên được triển khai trên nền tảng điện toán đám mây Amazon Web Services (AWS). Hệ thống hỗ trợ các chức năng cốt lõi bao gồm tải lên tài liệu (upload), tìm kiếm (search), xem trước trực tuyến (preview), tải xuống (download) và quy trình kiểm duyệt tài liệu (moderation workflow) dành cho quản trị viên. Kiến trúc của CloudDoc được thiết kế an toàn, tối ưu chi phí và có khả năng mở rộng tốt bằng việc tích hợp các dịch vụ AWS hiện đại, giúp phân phối nội dung nhanh chóng và lưu trữ dữ liệu an toàn.
 
 ### 2. Tuyên bố vấn đề  
 *Vấn đề hiện tại*  
-Các trạm thời tiết hiện tại yêu cầu thu thập dữ liệu thủ công, khó quản lý khi có nhiều trạm. Không có hệ thống tập trung cho dữ liệu hoặc phân tích thời gian thực, và các nền tảng bên thứ ba thường tốn kém và quá phức tạp.  
+Các phương thức quản lý tài liệu truyền thống thường gặp khó khăn trong việc xử lý tệp tải lên có dung lượng lớn, phân quyền người dùng chưa tối ưu, thiếu quy trình kiểm duyệt nội dung tự động hoặc tập trung, và khó đáp ứng khả năng mở rộng khi lượng truy cập tăng đột biến. Việc lưu trữ trực tiếp các tệp tin lớn trên máy chủ ứng dụng (backend) cũng làm tiêu tốn tài nguyên và tăng chi phí hạ tầng không cần thiết.
 
 *Giải pháp*  
-Nền tảng sử dụng AWS IoT Core để tiếp nhận dữ liệu MQTT, AWS Lambda và API Gateway để xử lý, Amazon S3 để lưu trữ (bao gồm data lake), và AWS Glue Crawlers cùng các tác vụ ETL để trích xuất, chuyển đổi, tải dữ liệu từ S3 data lake sang một S3 bucket khác để phân tích. AWS Amplify với Next.js cung cấp giao diện web, và Amazon Cognito đảm bảo quyền truy cập an toàn. Tương tự như Thingsboard và CoreIoT, người dùng có thể đăng ký thiết bị mới và quản lý kết nối, nhưng nền tảng này hoạt động ở quy mô nhỏ hơn và phục vụ mục đích sử dụng nội bộ. Các tính năng chính bao gồm bảng điều khiển thời gian thực, phân tích xu hướng và chi phí vận hành thấp.  
+CloudDoc giải quyết các vấn đề trên bằng cách xây dựng một kiến trúc tách biệt giữa giao diện frontend (React), backend xử lý logic (Node.js/Express) và dịch vụ lưu trữ đối tượng (Amazon S3). Luồng upload sử dụng presigned URL giúp tải tệp trực tiếp lên S3, giảm tải tối đa cho backend. Đối với việc lưu trữ lâu dài và tối ưu chi phí, hệ thống chuyển giao các tệp tin cũ sang Amazon S3 Glacier. Cơ sở dữ liệu PostgreSQL lưu trữ metadata phục vụ tìm kiếm nhanh chóng. Quy trình kiểm duyệt tự động hóa và thông báo được quản lý thông qua luồng tin nhắn và thông báo của AWS để đảm bảo tính sẵn sàng và tính tương tác của hệ thống.
 
 *Lợi ích và hoàn vốn đầu tư (ROI)*  
-Giải pháp tạo nền tảng cơ bản để các thành viên phòng lab phát triển một nền tảng IoT lớn hơn, đồng thời cung cấp nguồn dữ liệu cho những người nghiên cứu AI phục vụ huấn luyện mô hình hoặc phân tích. Nền tảng giảm bớt báo cáo thủ công cho từng trạm thông qua hệ thống tập trung, đơn giản hóa quản lý và bảo trì, đồng thời cải thiện độ tin cậy dữ liệu. Chi phí hàng tháng ước tính 0,66 USD (theo AWS Pricing Calculator), tổng cộng 7,92 USD cho 12 tháng. Tất cả thiết bị IoT đã được trang bị từ hệ thống trạm thời tiết hiện tại, không phát sinh chi phí phát triển thêm. Thời gian hoàn vốn 6–12 tháng nhờ tiết kiệm đáng kể thời gian thao tác thủ công.  
+Giải pháp giúp cung cấp nền tảng quản lý tài liệu ổn định cho sinh viên, đồng thời giảm thiểu đáng kể thời gian xử lý thủ công nhờ quy trình duyệt tài liệu tích hợp định sẵn. Việc lưu trữ trực tiếp trên Amazon S3 và chuyển đổi lớp lưu trữ sang Glacier giúp tối ưu hóa chi phí đến mức tối đa. Chi phí vận hành thấp của mô hình serverless kết hợp với các máy chủ EC2 kích thước nhỏ giúp hệ thống tiết kiệm ngân sách đáng kể ngay từ giai đoạn thử nghiệm đến khi vận hành thực tế.
 
 ### 3. Kiến trúc giải pháp  
-Nền tảng áp dụng kiến trúc AWS Serverless để quản lý dữ liệu từ 5 trạm dựa trên Raspberry Pi, có thể mở rộng lên 15 trạm. Dữ liệu được tiếp nhận qua AWS IoT Core, lưu trữ trong S3 data lake và xử lý bởi AWS Glue Crawlers và ETL jobs để chuyển đổi và tải vào một S3 bucket khác cho mục đích phân tích. Lambda và API Gateway xử lý bổ sung, trong khi Amplify với Next.js cung cấp bảng điều khiển được bảo mật bởi Cognito.  
+CloudDoc áp dụng mô hình kiến trúc phân lớp an toàn và tiện lợi để quản lý cũng như lưu trữ tài liệu. Hệ thống vận hành trơn tru nhờ sự phối hợp của các thành phần sau:
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+![CloudDoc Architecture](/images/2-Proposal/anh1.png)
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
-
-*Dịch vụ AWS sử dụng*  
-- *AWS IoT Core*: Tiếp nhận dữ liệu MQTT từ 5 trạm, mở rộng lên 15.  
-- *AWS Lambda*: Xử lý dữ liệu và kích hoạt Glue jobs (2 hàm).  
-- *Amazon API Gateway*: Giao tiếp với ứng dụng web.  
-- *Amazon S3*: Lưu trữ dữ liệu thô (data lake) và dữ liệu đã xử lý (2 bucket).  
-- *AWS Glue*: Crawlers lập chỉ mục dữ liệu, ETL jobs chuyển đổi và tải dữ liệu.  
-- *AWS Amplify*: Lưu trữ giao diện web Next.js.  
-- *Amazon Cognito*: Quản lý quyền truy cập cho người dùng phòng lab.  
-
-*Thiết kế thành phần*  
-- *Thiết bị biên*: Raspberry Pi thu thập và lọc dữ liệu cảm biến, gửi tới IoT Core.  
-- *Tiếp nhận dữ liệu*: AWS IoT Core nhận tin nhắn MQTT từ thiết bị biên.  
-- *Lưu trữ dữ liệu*: Dữ liệu thô lưu trong S3 data lake; dữ liệu đã xử lý lưu ở một S3 bucket khác.  
-- *Xử lý dữ liệu*: AWS Glue Crawlers lập chỉ mục dữ liệu; ETL jobs chuyển đổi để phân tích.  
-- *Giao diện web*: AWS Amplify lưu trữ ứng dụng Next.js cho bảng điều khiển và phân tích thời gian thực.  
-- *Quản lý người dùng*: Amazon Cognito giới hạn 5 tài khoản hoạt động.  
+*Các dịch vụ AWS sử dụng và vai trò*  
+- **Frontend**: Giao diện người dùng được triển khai tối ưu và truyền tải qua mạng lưới phân phối nội dung **Amazon CloudFront** giúp giảm độ trễ truy cập.
+- **Application Load Balancer**: Điều phối lưu lượng mạng đến các máy chủ backend một cách cân bằng và hiệu quả.
+- **Amazon EC2**: Server chạy Backend API bằng Node.js và Express để xử lý logic, nghiệp vụ, phân quyền và tạo presigned URL.
+- **Amazon RDS PostgreSQL**: Cơ sở dữ liệu Postgres lưu trữ thông tin người dùng, metadata và trạng thái tài liệu.
+- **Amazon S3**: Lưu trữ các tài liệu gốc và tệp đính kèm do người dùng tải lên thông qua cơ chế presigned URL.
+- **Amazon S3 Glacier**: Lưu trữ lưu trữ dữ liệu lưu trữ lịch sử, ít truy cập nhằm tiết kiệm chi phí tối đa.
+- **Amazon SQS** & **Amazon SNS**: Hệ thống hàng đợi (SQS) và dịch vụ thông báo (SNS) giúp xử ký bất đồng bộ các tác vụ và gửi thông báo về trạng thái của tài liệu đến hệ thống.
+- **Amazon CloudWatch**: Thu thập log, theo dõi metric và cấu hình các alarm cảnh báo để giám sát trạng thái hoạt động của toàn bộ hạ tầng.
 
 ### 4. Triển khai kỹ thuật
 
@@ -107,7 +98,9 @@ Việc chia dự án thành nhiều giai đoạn giúp nhóm dễ dàng theo dõ
 
 Để đánh giá khả năng triển khai CloudDoc trên môi trường AWS, nhóm sử dụng AWS Pricing Calculator để ước tính chi phí vận hành hằng tháng đối với một kiến trúc gần với môi trường thực tế.
 
-![AWS Pricing](/images/2-Proposal/anh1.png)
+![AWS Pricing](/images/2-Proposal/anh2.png)
+
+Hình ảnh trên đây được tạo bằng cách sử dụng AWS Pricing Calculator nhằm ước tính chi phí vận hành hằng tháng đối với kiến trúc của hệ thống CloudDoc.
 
 Theo kết quả ước tính, Amazon RDS và Amazon EC2 là hai thành phần chiếm tỷ trọng chi phí lớn nhất do phải duy trì hoạt động liên tục. Các dịch vụ như Application Load Balancer, CloudWatch và NAT Gateway cũng phát sinh chi phí nhưng ở mức thấp hơn.
 
@@ -149,4 +142,4 @@ Sau khi hoàn thành dự án, hệ thống kỳ vọng sẽ đạt được cá
 - Kiến trúc được thiết kế theo hướng mở rộng, dễ dàng bổ sung các tính năng mới trong tương lai.
 - Các dịch vụ AWS được tích hợp hợp lý, giúp tăng tính bảo mật, khả năng mở rộng và tối ưu hiệu năng.
 
-Đối với nhóm thực hiện, dự án không chỉ là sản phẩm phục vụ báo cáo thực tập mà còn là cơ hội vận dụng các kiến thức về phát triển web, cơ sở dữ liệu và điện toán đám mây vào một hệ thống hoàn chỉnh. Qua quá trình triển khai, nhóm có thêm kinh nghiệm trong việc phân tích yêu cầu, thiết kế kiến trúc, tích hợp dịch vụ AWS và phối hợp làm việc theo nhóm để hoàn thành một dự án thực tế.
+Đối với nhóm thực hiện, dự án không chỉเป็น sản phẩm phục vụ báo cáo thực tập mà còn là cơ hội vận dụng các kiến thức về phát triển web, cơ sở dữ liệu và điện toán đám mây vào một hệ thống hoàn chỉnh. Qua quá trình triển khai, nhóm có thêm kinh nghiệm trong việc phân tích yêu cầu, thiết kế kiến trúc, tích hợp dịch vụ AWS và phối hợp làm việc theo nhóm để hoàn thành một dự án thực tế.
