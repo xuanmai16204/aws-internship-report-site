@@ -52,64 +52,101 @@ The platform employs a serverless AWS architecture to manage data from 5 Raspber
 - **User Management**: Amazon Cognito manages user access, allowing up to 5 active accounts.
 
 ### 4. Technical Implementation
-**Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
-- Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
-- Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
-- Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).
-- Develop, Test, and Deploy: Code the Raspberry Pi setup, AWS services with CDK/SDK, and Next.js app, then test and release to production (Months 2-3).
 
-**Technical Requirements**
-- Weather Edge Station: Sensors (temperature, humidity, rainfall, wind speed), a microcontroller (ESP32), and a Raspberry Pi as the edge device. Raspberry Pi runs Raspbian, handles Docker for filtering, and sends 1 MB/day per station via MQTT over Wi-Fi.
-- Weather Platform: Practical knowledge of AWS Amplify (hosting Next.js), Lambda (minimal use due to Next.js), AWS Glue (ETL), S3 (two buckets), IoT Core (gateway and rules), and Cognito (5 users). Use AWS CDK/SDK to code interactions (e.g., IoT Core rules to S3). Next.js reduces Lambda workload for the fullstack web app.
+During the development of CloudDoc, the team opted for a phased implementation to ensure that critical functions were built, tested, and integrated stably before moving to the next step. Breaking down the development process helps mitigate unexpected errors and facilitates future system scalability.
 
-### 5. Timeline & Milestones
-**Project Timeline**
-- Pre-Internship (Month 0): 1 month for planning and old station review.
-- Internship (Months 1-3): 3 months.
-    - Month 1: Study AWS and upgrade hardware.
-    - Month 2: Design and adjust architecture.
-    - Month 3: Implement, test, and launch.
-- Post-Launch: Up to 1 year for research.
+The main components implemented include:
+
+- Building the user interface with React for Home, Search, Upload, Preview, Download, and Administration Dashboard functions.
+- Designing the Backend API with Node.js and Express to handle authentication, authorization, document management, and Presigned URL generation.
+- Designing the PostgreSQL database to store metadata, document status, user information, and processing logs.
+- Integrating Amazon S3 for storing raw files, reducing the backend's workload of handling binary data directly.
+- Establishing the upload workflow using Presigned URLs to reduce application server load and improve scalability.
+- Connecting the frontend, backend, and AWS services into a unified processing workflow.
+- Performing end-to-end testing to verify that the entire workflow—from upload and moderation to preview and download—functions correctly.
+
+The team also prioritized standardizing the codebase structure, separating the user interface, business logic, and data layer to make maintenance and future feature development more convenient.
+
+### 5. Implementation Roadmap and Milestones
+
+To ensure steady progress, the CloudDoc project was divided into three main phases.
+
+#### Phase 1: Completing Foundation Features
+
+In the first phase, the team focused on building the core functions of the system.
+
+- Designing the user interface.
+- Implementing authentication and authorization.
+- Developing the document upload feature.
+- Designing the database for storing metadata.
+- Completing the basic search functionality.
+
+#### Phase 2: Integrating AWS Services
+
+After completing the application core, the team integrated AWS cloud services.
+
+- Connecting the frontend with the backend.
+- Integrating Amazon S3 for document storage.
+- Using Presigned URLs for the upload workflow.
+- Completing the APIs for document preview and download.
+- Testing the end-to-end document processing workflow.
+
+#### Phase 3: Finalizing and Optimizing the System
+
+In the final phase, the team focused on refining the product and preparing for the final presentation.
+
+- Optimizing the user interface.
+- Finalizing the Administration Dashboard.
+- Adding system monitoring via Amazon CloudWatch.
+- Preparing project presentation and demonstration materials.
+- Testing all functionalities before final evaluation.
+
+Dividing the project into multiple phases helped the team easily track progress, evaluate outcomes after each milestone, and reduce integration risks.
 
 ### 6. Budget Estimation
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
 
-### Infrastructure Costs
-- AWS Services:
-    - AWS Lambda: $0.00/month (1,000 requests, 512 MB storage).
-    - S3 Standard: $0.15/month (6 GB, 2,100 requests, 1 GB scanned).
-    - Data Transfer: $0.02/month (1 GB inbound, 1 GB outbound).
-    - AWS Amplify: $0.35/month (256 MB, 500 ms requests).
-    - Amazon API Gateway: $0.01/month (2,000 requests).
-    - AWS Glue ETL Jobs: $0.02/month (2 DPUs).
-    - AWS Glue Crawlers: $0.07/month (1 crawler).
-    - MQTT (IoT Core): $0.08/month (5 devices, 45,000 messages).
+To evaluate the feasibility of deploying CloudDoc in a production environment, the team used the AWS Pricing Calculator to estimate the monthly operational costs for an architecture close to reality.
 
-Total: $0.7/month, $8.40/12 months
+![AWS Pricing](/images/2-Proposal/anh1.png)
 
-- Hardware: $265 one-time (Raspberry Pi 5 and sensors).
+Based on the estimation results, Amazon RDS and Amazon EC2 consume the largest portion of the budget due to their continuous operation. Services such as Application Load Balancer, CloudWatch, and NAT Gateway also incur costs but at lower rates.
+
+During the learning and testing phases, the team can significantly reduce costs using the following measures:
+
+- Using smaller EC2 instance sizes.
+- Stopping EC2 instances when not in use.
+- Leveraging AWS Free Tier for eligible services.
+- Setting up S3 Lifecycle policies to transition infrequently accessed data to lower-cost storage classes.
+- Monitoring resource costs via AWS Budgets to prevent unexpected expenses.
+
+The estimated cost above is for reference only and can vary depending on the actual scale and usage patterns of the system.
 
 ### 7. Risk Assessment
-#### Risk Matrix
-- Network Outages: Medium impact, medium probability.
-- Sensor Failures: High impact, low probability.
-- Cost Overruns: Medium impact, low probability.
 
-#### Mitigation Strategies
-- Network: Local storage on Raspberry Pi with Docker.
-- Sensors: Regular checks and spares.
-- Cost: AWS budget alerts and optimization.
+During the implementation of CloudDoc, the team identified several risks that could affect the system's quality and operation.
 
-#### Contingency Plans
-- Revert to manual methods if AWS fails.
-- Use CloudFormation for cost-related rollbacks.
+| Risk | Impact | Mitigation Strategy |
+| --- | --- | --- |
+| Upload failures due to expired Presigned URLs | Users cannot upload documents | Set a reasonable expiration time and allow generating new URLs |
+| Metadata save failures | Documents do not appear in the system | Implement transactions between file upload and metadata storage |
+| Inappropriate IAM configuration | Vulnerable access to AWS resources or overly broad permissions | Apply the Least Privilege principle |
+| Unexpected AWS cost spikes | Budget constraints | Monitor costs using AWS Budgets and perform regular resource cleanups |
+| Absence of system monitoring | Difficult to identify runtime errors | Use CloudWatch Logs, Metrics, and Alarms |
+| Scalability bottlenecks | Hard to accommodate user growth | Separate frontend, backend, and storage components |
+
+Identifying these risks early in the design stage allowed the team to proactively formulate contingency plans, ensuring the system's reliability and stability.
 
 ### 8. Expected Outcomes
-#### Technical Improvements: 
-Real-time data and analytics replace manual processes.  
-Scalable to 10-15 stations.
-#### Long-term Value
-1-year data foundation for AI research.  
-Reusable for future projects.
+
+CloudDoc aims to build a modern study document management and sharing system on AWS.
+
+After completing the project, the system is expected to achieve the following goals:
+
+- Users can upload, manage, and share documents easily.
+- Documents are securely stored in Amazon S3 and managed via metadata in PostgreSQL.
+- Fast document search, preview, and download functionalities.
+- Document moderation workflow to improve document quality before publication.
+- Scalable architecture that easily integrates new features in the future.
+- Appropriate integration of AWS services to enhance security, scalability, and performance.
+
+For the project team, this project is not only a product for the internship report but also a great opportunity to apply web development, database management, and cloud computing knowledge to a complete system. Through the deployment process, the team gained experience in requirement analysis, architecture design, AWS integration, and team collaboration.
