@@ -5,11 +5,9 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-
-Tại phần này, bạn cần tóm tắt các nội dung trong workshop mà bạn **dự tính** sẽ làm.
-
-# CloudDoc  
 ## Hệ thống quản lý và chia sẻ tài liệu trực tuyến trên nền tảng AWS  
+
+
 
 ### 1. Tóm tắt điều hành  
 CloudDoc là hệ thống quản lý và chia sẻ tài liệu học tập dành cho sinh viên được triển khai trên nền tảng điện toán đám mây Amazon Web Services (AWS). Hệ thống hỗ trợ các chức năng cốt lõi bao gồm tải lên tài liệu (upload), tìm kiếm (search), xem trước trực tuyến (preview), tải xuống (download) và quy trình kiểm duyệt tài liệu (moderation workflow) dành cho quản trị viên. Kiến trúc của CloudDoc được thiết kế an toàn, tối ưu chi phí và có khả năng mở rộng tốt bằng việc tích hợp các dịch vụ AWS hiện đại, giúp phân phối nội dung nhanh chóng và lưu trữ dữ liệu an toàn.

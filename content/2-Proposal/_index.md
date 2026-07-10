@@ -5,11 +5,9 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
-
-# CloudDoc
 ## A Web-based Document Management and Sharing Platform on AWS
+
+
 
 ### 1. Executive Summary
 CloudDoc is a web-based document management and sharing platform designed for students, deployed on the Amazon Web Services (AWS) cloud platform. The system supports core functionalities including file upload, document search, online live preview, download, and an administrative document moderation workflow. CloudDoc's system architecture is designed to be secure, cost-optimized, and highly scalable by integrating modern AWS services to ensure rapid content delivery and reliable data storage.
