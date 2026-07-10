@@ -17,10 +17,10 @@ The eighth week of my internship focused on document translation and learning ho
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I practiced using AWS Cost Explorer to track spending and analyze resource costs. | 09/06/2026 | 09/06/2026 |
-| Thursday | I learned how to set up Budgets and configured Cost Alert limits in AWS Budgets. | 11/06/2026 | 11/06/2026 |
-| Saturday | I translated Blog 1, checked terminology, finalized the content, and published it on the Hugo website. | 06/06/2026 | 06/06/2026 |
-| Sunday | I practiced Resource Modeling by designing configurations to automatically create VPC and EC2 through AWS CloudFormation. | 07/06/2026 | 07/06/2026 |
+| 1 | I translated Blog 1, checked terminology, finalized the content, and published it on the Hugo website. | 06/06/2026 | 06/06/2026 |
+| 2 | I practiced Resource Modeling by designing configurations to automatically create VPC and EC2 through AWS CloudFormation. | 07/06/2026 | 07/06/2026 |
+| 3 | I practiced using AWS Cost Explorer to track spending and analyze resource costs. | 09/06/2026 | 09/06/2026 |
+| 4 | I learned how to set up Budgets and configured Cost Alert limits in AWS Budgets. | 11/06/2026 | 11/06/2026 |
 
 ### CloudDoc Project:
 * **Functional Testing:** Together with the team, I tested the application features, focusing on registration & login tests and integration testing.

@@ -15,12 +15,12 @@ Tuần đầu tiên bước vào kỳ thực tập, em dành thời gian để h
 * Tìm hiểu cách quản lý tài khoản và phân quyền cơ bản thông qua IAM.
 
 ### Công việc thực hiện trong tuần:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 3 | Em tìm hiểu và phân biệt 4 gói hỗ trợ kỹ thuật của AWS gồm Basic, Developer, Business và Enterprise. | 21/04/2026 | 21/04/2026 | Trang chủ AWS |
-| Thứ 5 | Em học cách sử dụng dịch vụ IAM để tạo User, Group và cấu hình các Policy cơ bản để phân quyền cho các tài khoản phụ thay vì sử dụng trực tiếp tài khoản Root. | 23/04/2026 | 23/04/2026 | Tài liệu IAM AWS |
-| Thứ 7 | Em tham gia buổi giới thiệu chương trình thực tập First Cloud Journey và tiến hành cài đặt thành công môi trường chạy Hugo trên máy cá nhân. | 18/04/2026 | 18/04/2026 | Hướng dẫn chương trình |
-| Chủ nhật | Em đăng ký tài khoản AWS Free Tier và thực hiện cấu hình AWS Budgets để thiết lập các cảnh báo chi phí. | 19/04/2026 | 19/04/2026 | Học liệu Cloud Journey |
+| 1 | Em tham gia buổi giới thiệu chương trình thực tập First Cloud Journey và tiến hành cài đặt thành công môi trường chạy Hugo trên máy cá nhân. | 18/04/2026 | 18/04/2026 | Hướng dẫn chương trình |
+| 2 | Em đăng ký tài khoản AWS Free Tier và thực hiện cấu hình AWS Budgets để thiết lập các cảnh báo chi phí. | 19/04/2026 | 19/04/2026 | Học liệu Cloud Journey |
+| 3 | Em tìm hiểu và phân biệt 4 gói hỗ trợ kỹ thuật của AWS gồm Basic, Developer, Business và Enterprise. | 21/04/2026 | 21/04/2026 | Trang chủ AWS |
+| 4 | Em học cách sử dụng dịch vụ IAM để tạo User, Group và cấu hình các Policy cơ bản để phân quyền cho các tài khoản phụ thay vì sử dụng trực tiếp tài khoản Root. | 23/04/2026 | 23/04/2026 | Tài liệu IAM AWS |
 
 ### Dự án CloudDoc:
 * **Họp nhóm:** Em cùng các bạn lập nhóm thực tập và tham dự buổi họp kick-off thảo luận ban đầu. Cả nhóm thống nhất chọn xây dựng ứng dụng CloudDoc hỗ trợ quản lý và chia sẻ tài liệu trên đám mây. Đồng thời, nhóm thực hiện phân chia vai trò công việc cụ thể cho từng thành viên.

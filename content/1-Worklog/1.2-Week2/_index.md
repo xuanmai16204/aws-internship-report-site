@@ -16,10 +16,10 @@ Moving into the second week of the internship, I focused on learning the foundat
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I learned about configured EC2 virtual servers, selecting Instance Types, AMIs, and attaching EBS volumes. | 28/04/2026 | 28/04/2026 |
-| Thursday | I practiced connecting to EC2 using SSH through Key Pairs and assigned an Elastic IP for testing. | 30/04/2026 | 30/04/2026 |
-| Saturday | I practiced configuring VPC networks, dividing Subnets, and connecting Internet Gateways. | 25/04/2026 | 25/04/2026 |
-| Sunday | I completed comparative exercises on the security mechanisms of Security Groups and Network ACLs. | 26/04/2026 | 26/04/2026 |
+| 1 | I practiced configuring VPC networks, dividing Subnets, and connecting Internet Gateways. | 25/04/2026 | 25/04/2026 |
+| 2 | I completed comparative exercises on the security mechanisms of Security Groups and Network ACLs. | 26/04/2026 | 26/04/2026 |
+| 3 | I learned about configured EC2 virtual servers, selecting Instance Types, AMIs, and attaching EBS volumes. | 28/04/2026 | 28/04/2026 |
+| 4 | I practiced connecting to EC2 using SSH through Key Pairs and assigned an Elastic IP for testing. | 30/04/2026 | 30/04/2026 |
 
 ### CloudDoc Project:
 * **Requirements Analysis:** Together with the team, I analyzed business requirements, discussed user flows, and prepared the requirements documentation for the CloudDoc application.

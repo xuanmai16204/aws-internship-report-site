@@ -15,12 +15,12 @@ Tuần này em tìm hiểu các phương thức giúp quản lý chi phí đám 
 * Học cách cấu hình các báo cáo chi tiêu (Billing Reports), xuất báo cáo sử dụng tài nguyên (Export Usage Reports) về lưu trữ tại Amazon Simple Storage Service (Amazon S3).
 
 ### Công việc thực hiện trong tuần:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 3 | Em tìm hiểu cách hoạt động của Reserved Instances, so sánh sự khác nhau giữa hai tùy chọn Standard và Convertible. | 16/06/2026 | 16/06/2026 |
-| Thứ 5 | Em cấu hình xuất các báo cáo chi tiêu Billing Reports và cấu hình tự động lưu thông tin Export Usage Reports về S3. | 18/06/2026 | 18/06/2026 |
-| Thứ 7 | Em phối hợp cùng nhóm kiểm tra nội dung bài dịch Blog 2 sau khi hoàn thành, rà soát cách hiển thị trên website và góp ý sửa lỗi trình bày. | 13/06/2026 | 13/06/2026 |
-| Chủ nhật | Em học về khái niệm Cost Optimization và tìm hiểu các tùy chọn Savings Plans để giúp giảm thiểu chi phí máy chủ. | 14/06/2026 | 14/06/2026 |
+| 1 | Em phối hợp cùng nhóm kiểm tra nội dung bài dịch Blog 2 sau khi hoàn thành, rà soát cách hiển thị trên website và góp ý sửa lỗi trình bày. | 13/06/2026 | 13/06/2026 |
+| 2 | Em học về khái niệm Cost Optimization và tìm hiểu các tùy chọn Savings Plans để giúp giảm thiểu chi phí máy chủ. | 14/06/2026 | 14/06/2026 |
+| 3 | Em tìm hiểu cách hoạt động của Reserved Instances, so sánh sự khác nhau giữa hai tùy chọn Standard và Convertible. | 16/06/2026 | 16/06/2026 |
+| 4 | Em cấu hình xuất các báo cáo chi tiêu Billing Reports và cấu hình tự động lưu thông tin Export Usage Reports về S3. | 18/06/2026 | 18/06/2026 |
 
 ### Dự án CloudDoc:
 * **Khắc phục lỗi hệ thống:** Em cùng nhóm thực hiện sửa lỗi ứng dụng, kiểm tra chức năng upload tài liệu, kiểm tra cấu hình CORS và hoàn thiện chức năng lưu trữ tài liệu.

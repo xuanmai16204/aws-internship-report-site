@@ -15,12 +15,12 @@ Tuần này em chuyển sang tìm hiểu về dịch vụ cơ sở dữ liệu q
 * Tìm hiểu cấu trúc vận hành của hệ thống co giãn tự động EC2 Auto Scaling và bộ cân bằng tải Elastic Load Balancer (ELB).
 
 ### Công việc thực hiện trong tuần:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 3 | Em thực hiện cấu hình sao lưu tự động, tự tạo Snapshot và thực hành khôi phục dữ liệu database. | 12/05/2026 | 12/05/2026 |
-| Thứ 5 | Em tìm hiểu cấu trúc hoạt động của EC2 Auto Scaling và bộ cân bằng tải ELB. | 14/05/2026 | 14/05/2026 |
-| Thứ 7 | Em tự tìm hiểu lý thuyết về RDS, phân biệt cách thiết lập Multi-AZ, Read Replica và cơ chế sao lưu. | 09/05/2026 | 09/05/2026 |
-| Chủ nhật | Em thực hành tạo cơ sở dữ liệu RDS MySQL và kiểm tra việc kết nối vào Database. | 10/05/2026 | 10/05/2026 |
+| 1 | Em tự tìm hiểu lý thuyết về RDS, phân biệt cách thiết lập Multi-AZ, Read Replica và cơ chế sao lưu. | 09/05/2026 | 09/05/2026 |
+| 2 | Em thực hành tạo cơ sở dữ liệu RDS MySQL và kiểm tra việc kết nối vào Database. | 10/05/2026 | 10/05/2026 |
+| 3 | Em thực hiện cấu hình sao lưu tự động, tự tạo Snapshot và thực hành khôi phục dữ liệu database. | 12/05/2026 | 12/05/2026 |
+| 4 | Em tìm hiểu cấu trúc hoạt động của EC2 Auto Scaling và bộ cân bằng tải ELB. | 14/05/2026 | 14/05/2026 |
 
 ### Dự án CloudDoc:
 * **Thiết kế kiến trúc:** Em phối hợp cùng nhóm trao đổi và phác thảo sơ đồ thiết kế kiến trúc hệ thống của ứng dụng CloudDoc.

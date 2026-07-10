@@ -17,10 +17,10 @@ This week, I switched to learning about relational database services on the clou
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I configured automatic backups, created a Snapshot, and practiced restoring the database data. | 12/05/2026 | 12/05/2026 |
-| Thursday | I learned about the operational structure of EC2 Auto Scaling and the ELB load balancer. | 14/05/2026 | 14/05/2026 |
-| Saturday | I researched the theory of RDS on my own, distinguishing Multi-AZ setup, Read Replica, and backup mechanisms. | 09/05/2026 | 09/05/2026 |
-| Sunday | I practiced creating an RDS MySQL database and verified the connection to the Database. | 10/05/2026 | 10/05/2026 |
+| 1 | I researched the theory of RDS on my own, distinguishing Multi-AZ setup, Read Replica, and backup mechanisms. | 09/05/2026 | 09/05/2026 |
+| 2 | I practiced creating an RDS MySQL database and verified the connection to the Database. | 10/05/2026 | 10/05/2026 |
+| 3 | I configured automatic backups, created a Snapshot, and practiced restoring the database data. | 12/05/2026 | 12/05/2026 |
+| 4 | I learned about the operational structure of EC2 Auto Scaling and the ELB load balancer. | 14/05/2026 | 14/05/2026 |
 
 ### CloudDoc Project:
 * **Architecture Design:** Together with the team, I discussed and sketched the system architecture diagram for the CloudDoc application.

@@ -16,10 +16,10 @@ During this week, I continued to participate in the Workshop and prepared for th
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I continued to participate in the Workshop practice and completed the contents according to the instructions. | 30/06/2026 | 30/06/2026 |
-| Thursday | I practiced the Workshop, completed the remaining contents, and checked the practice results. | 02/07/2026 | 02/07/2026 |
-| Saturday | I participated in the Workshop, practiced according to the instructions, and checked the practice results. | 27/06/2026 | 27/06/2026 |
-| Sunday | I participated in the Workshop and completed the practice steps according to the instructions. | 28/06/2026 | 28/06/2026 |
+| 1 | I participated in the Workshop, practiced according to the instructions, and checked the practice results. | 27/06/2026 | 27/06/2026 |
+| 2 | I participated in the Workshop and completed the practice steps according to the instructions. | 28/06/2026 | 28/06/2026 |
+| 3 | I continued to participate in the Workshop practice and completed the contents according to the instructions. | 30/06/2026 | 30/06/2026 |
+| 4 | I practiced the Workshop, completed the remaining contents, and checked the practice results. | 02/07/2026 | 02/07/2026 |
 
 ### CloudDoc Project:
 * **Product Presentation:** Together with the team, I checked all functions of the CloudDoc application before the demo, completed any missing preparations, and carried out the product presentation with the mentor and guiding members.

@@ -16,13 +16,13 @@ Tuần cuối của kỳ thực tập, em tập trung hoàn thiện website báo
 * Hoàn thiện bản tự đánh giá cá nhân và báo cáo thực tập cuối khóa.
 
 ### Công việc thực hiện trong tuần:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 3 | Em thực hiện dọn dẹp các file không sử dụng trên Hugo và kiểm tra Build Log để đảm bảo trang hoạt động bình thường. | 07/07/2026 | 07/07/2026 |
-| Thứ 5 | Em thực hiện deploy website báo cáo Hugo lên GitHub Pages và kiểm tra lại sau khi hoàn tất. | 09/07/2026 | 09/07/2026 |
-| Thứ 7 | Em hoàn thiện giao diện website Hugo, điều chỉnh bố cục và kiểm tra cách hiển thị của các trang. | 04/07/2026 | 04/07/2026 |
-| Chủ nhật | Em kiểm tra toàn bộ nội dung tiếng Việt và tiếng Anh để đảm bảo các trang được hiển thị đúng. | 05/07/2026 | 05/07/2026 |
-| Thứ 6 | Em hoàn thiện bản tự đánh giá cá nhân và hoàn thiện báo cáo thực tập cuối kỳ. | 10/07/2026 | 10/07/2026 |
+| 1 | Em hoàn thiện giao diện website Hugo, điều chỉnh bố cục và kiểm tra cách hiển thị của các trang. | 04/07/2026 | 04/07/2026 |
+| 2 | Em kiểm tra toàn bộ nội dung tiếng Việt và tiếng Anh để đảm bảo các trang được hiển thị đúng. | 05/07/2026 | 05/07/2026 |
+| 3 | Em thực hiện dọn dẹp các file không sử dụng trên Hugo và kiểm tra Build Log để đảm bảo trang hoạt động bình thường. | 07/07/2026 | 07/07/2026 |
+| 4 | Em thực hiện deploy website báo cáo Hugo lên GitHub Pages và kiểm tra lại sau khi hoàn tất. | 09/07/2026 | 09/07/2026 |
+| 5 | Em hoàn thiện bản tự đánh giá cá nhân và hoàn thiện báo cáo thực tập cuối kỳ. | 10/07/2026 | 10/07/2026 |
 
 ### Dự án CloudDoc:
 * **Hoàn tất dự án:** Em cùng nhóm tiến hành kiểm tra lại toàn bộ chức năng lần cuối, thực hiện buổi demo cuối của dự án và hoàn thiện các nội dung của dự án CloudDoc.

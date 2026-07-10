@@ -17,10 +17,10 @@ This week, I learned about the serverless computing model and how to automate in
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I practiced linking S3 with AWS Lambda to automatically configure and run triggers when new files are uploaded. | 02/06/2026 | 02/06/2026 |
-| Thursday | I learned how to write configuration files for AWS CloudFormation Templates and practiced running a basic infrastructure Stack Deployment for testing. | 04/06/2026 | 04/06/2026 |
-| Saturday | I participated in Event 2: First Cloud AI Meet Up, accumulated shared knowledge, noted down practical experiences, and searched for more ideas to apply to CloudDoc. | 30/05/2026 | 30/05/2026 |
-| Sunday | I researched AWS Lambda, tested Runtime configuration, learned how to write Handler source code, and set up Trigger mechanisms. | 31/05/2026 | 31/05/2026 |
+| 1 | I participated in Event 2: First Cloud AI Meet Up, accumulated shared knowledge, noted down practical experiences, and searched for more ideas to apply to CloudDoc. | 30/05/2026 | 30/05/2026 |
+| 2 | I researched AWS Lambda, tested Runtime configuration, learned how to write Handler source code, and set up Trigger mechanisms. | 31/05/2026 | 31/05/2026 |
+| 3 | I practiced linking S3 with AWS Lambda to automatically configure and run triggers when new files are uploaded. | 02/06/2026 | 02/06/2026 |
+| 4 | I learned how to write configuration files for AWS CloudFormation Templates and practiced running a basic infrastructure Stack Deployment for testing. | 04/06/2026 | 04/06/2026 |
 
 ### CloudDoc Project:
 * **Develop Upload Feature:** Together with the team, I discussed developing the document upload feature, checked the storage operations of the upload API, and tested the connection for transmitting information between the frontend and backend.

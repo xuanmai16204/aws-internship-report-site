@@ -17,10 +17,10 @@ During my first week of the internship, I spent time understanding the program d
 ### Activities
 | Day | Task | Start Date | Completion Date |
 | --- | --- | --- | --- |
-| Tuesday | I compared the four AWS Support plans: Basic, Developer, Business, and Enterprise. | 21/04/2026 | 21/04/2026 |
-| Thursday | I practiced using IAM to create users, groups, and configure basic policies to delegate permissions for sub-accounts instead of using the root account directly. | 23/04/2026 | 23/04/2026 |
-| Saturday | I attended the introduction to the First Cloud Journey internship program and successfully installed and configured the Hugo environment on my personal computer. | 18/04/2026 | 18/04/2026 |
-| Sunday | I signed up for an AWS Free Tier account and set up AWS Budgets to configure cost alerts. | 19/04/2026 | 19/04/2026 |
+| 1 | I attended the introduction to the First Cloud Journey internship program and successfully installed and configured the Hugo environment on my personal computer. | 18/04/2026 | 18/04/2026 |
+| 2 | I signed up for an AWS Free Tier account and set up AWS Budgets to configure cost alerts. | 19/04/2026 | 19/04/2026 |
+| 3 | I compared the four AWS Support plans: Basic, Developer, Business, and Enterprise. | 21/04/2026 | 21/04/2026 |
+| 4 | I practiced using IAM to create users, groups, and configure basic policies to delegate permissions for sub-accounts instead of using the root account directly. | 23/04/2026 | 23/04/2026 |
 
 ### CloudDoc Project
 * **Group Meeting:** I worked with my teammates to form an internship group and participated in the initial kick-off meeting. We agreed to build the CloudDoc application to manage and share documents on the cloud. We also assigned responsibilities to each team member.

@@ -15,12 +15,12 @@ Một tuần mới bắt đầu, em chuyển sang tìm hiểu về phân quyền
 * Tìm hiểu các tính năng quản lý phiên bản (Versioning), vòng đời đối tượng (Object Lifecycle) và cơ chế sao chép chéo vùng (Cross-Region Replication).
 
 ### Công việc thực hiện trong tuần:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
-| Thứ 3 | Em thực hành chạy thử tính năng Static Website Hosting và viết chính sách Bucket Policy để phân quyền truy cập S3. | 05/05/2026 | 05/05/2026 |
-| Thứ 5 | Em tìm hiểu cách bật tính năng S3 Versioning, thiết lập quy tắc Object Lifecycle và nghe giới thiệu về cơ chế Cross-Region Replication. | 07/05/2026 | 07/05/2026 |
-| Thứ 7 | Em cấu hình IAM Role cho máy chủ EC2 để phân quyền an toàn cho ứng dụng khi truy cập tài nguyên. | 02/05/2026 | 02/05/2026 |
-| Chủ nhật | Em tìm hiểu cách khởi tạo Bucket, quy tắc đặt tên, cấu hình quyền truy cập và học về các Storage Classes trên S3. | 03/05/2026 | 03/05/2026 |
+| 1 | Em cấu hình IAM Role cho máy chủ EC2 để phân quyền an toàn cho ứng dụng khi truy cập tài nguyên. | 02/05/2026 | 02/05/2026 |
+| 2 | Em tìm hiểu cách khởi tạo Bucket, quy tắc đặt tên, cấu hình quyền truy cập và học về các Storage Classes trên S3. | 03/05/2026 | 03/05/2026 |
+| 3 | Em thực hành chạy thử tính năng Static Website Hosting và viết chính sách Bucket Policy để phân quyền truy cập S3. | 05/05/2026 | 05/05/2026 |
+| 4 | Em tìm hiểu cách bật tính năng S3 Versioning, thiết lập quy tắc Object Lifecycle và nghe giới thiệu về cơ chế Cross-Region Replication. | 07/05/2026 | 07/05/2026 |
 
 ### Dự án CloudDoc:
 * **Thiết kế cơ sở dữ liệu:** Em phối hợp cùng nhóm thảo luận cấu trúc dữ liệu, xác định các bảng chính và trao đổi sơ bộ về kiến trúc hệ thống của ứng dụng CloudDoc.
