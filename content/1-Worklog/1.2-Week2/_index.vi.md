@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 2"
 date: 2026-04-24
 weight: 2
@@ -14,7 +14,7 @@ Bước sang tuần làm việc thứ hai, em tập trung tìm hiểu các kiế
 * Tìm hiểu cách khởi tạo máy chủ ảo Amazon Elastic Compute Cloud (Amazon EC2) sử dụng AMI, ổ đĩa EBS, Key Pair và Elastic IP.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em thực hành cấu hình mạng VPC, chia Subnet và kết nối Internet Gateway. | 25/04/2026 | 25/04/2026 |
 | 2 | Em làm bài tập so sánh sự khác nhau về cơ chế bảo mật của Security Group và Network ACL. | 26/04/2026 | 26/04/2026 |

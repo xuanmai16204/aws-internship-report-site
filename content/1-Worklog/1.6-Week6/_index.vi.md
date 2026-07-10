@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 6"
 date: 2026-05-22
 weight: 6
@@ -15,7 +15,7 @@ Tuần này em có cơ hội tham gia sự kiện lập trình thực tế và h
 * Học cách sử dụng công cụ Patch Manager để thiết lập cấu hình tự động cập nhật hệ điều hành cho máy chủ EC2.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em tham gia sự kiện Event 1: LotusHacks 36 Hours Hackathon & Deep Dive Talk, ghi nhận những kiến thức chia sẻ, quan sát các dự án và có thêm góc nhìn để áp dụng cho CloudDoc. | 23/05/2026 | 23/05/2026 |
 | 2 | Em tìm hiểu các tính năng cơ bản của SSM, thực hành thử nghiệm công cụ Run Command và lưu trữ các biến ở Parameter Store. | 24/05/2026 | 24/05/2026 |

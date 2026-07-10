@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 1"
 date: 2026-04-17
 weight: 1
@@ -15,7 +15,7 @@ Tuần đầu tiên bước vào kỳ thực tập, em dành thời gian để h
 * Tìm hiểu cách quản lý tài khoản và phân quyền cơ bản thông qua IAM.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 1 | Em tham gia buổi giới thiệu chương trình thực tập First Cloud Journey và tiến hành cài đặt thành công môi trường chạy Hugo trên máy cá nhân. | 18/04/2026 | 18/04/2026 | Hướng dẫn chương trình |
 | 2 | Em đăng ký tài khoản AWS Free Tier và thực hiện cấu hình AWS Budgets để thiết lập các cảnh báo chi phí. | 19/04/2026 | 19/04/2026 | Học liệu Cloud Journey |

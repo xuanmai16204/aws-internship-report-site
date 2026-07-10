@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 9"
 date: 2026-06-12
 weight: 9
@@ -15,7 +15,7 @@ Tuần này em tìm hiểu các phương thức giúp quản lý chi phí đám 
 * Học cách cấu hình các báo cáo chi tiêu (Billing Reports), xuất báo cáo sử dụng tài nguyên (Export Usage Reports) về lưu trữ tại Amazon Simple Storage Service (Amazon S3).
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em phối hợp cùng nhóm kiểm tra nội dung bài dịch Blog 2 sau khi hoàn thành, rà soát cách hiển thị trên website và góp ý sửa lỗi trình bày. | 13/06/2026 | 13/06/2026 |
 | 2 | Em học về khái niệm Cost Optimization và tìm hiểu các tùy chọn Savings Plans để giúp giảm thiểu chi phí máy chủ. | 14/06/2026 | 14/06/2026 |

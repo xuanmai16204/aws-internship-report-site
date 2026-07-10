@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 10"
 date: 2026-06-19
 weight: 10
@@ -15,7 +15,7 @@ Tuần này em chuyển sang tìm hiểu về các dịch vụ phân tích dữ 
 * Thực hành sử dụng AWS Glue và Amazon Athena để viết các câu lệnh truy vấn dữ liệu chi phí lưu trữ trên S3.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em phối hợp cùng nhóm kiểm tra nội dung sau khi bài dịch Blog 3 hoàn thành, rà soát cách hiển thị và hỗ trợ hoàn thiện bài viết trên Hugo. | 20/06/2026 | 20/06/2026 |
 | 2 | Em tìm hiểu cách hoạt động của AWS Glue, thiết lập quét dữ liệu bằng Glue Crawler và lưu thông tin bảng vào Glue Data Catalog. | 21/06/2026 | 21/06/2026 |

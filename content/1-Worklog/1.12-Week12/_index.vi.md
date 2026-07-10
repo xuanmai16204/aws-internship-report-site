@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 12"
 date: 2026-07-03
 weight: 12
@@ -16,7 +16,7 @@ Tuần cuối của kỳ thực tập, em tập trung hoàn thiện website báo
 * Hoàn thiện bản tự đánh giá cá nhân và báo cáo thực tập cuối khóa.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em hoàn thiện giao diện website Hugo, điều chỉnh bố cục và kiểm tra cách hiển thị của các trang. | 04/07/2026 | 04/07/2026 |
 | 2 | Em kiểm tra toàn bộ nội dung tiếng Việt và tiếng Anh để đảm bảo các trang được hiển thị đúng. | 05/07/2026 | 05/07/2026 |

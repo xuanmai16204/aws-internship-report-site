@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 7"
 date: 2026-05-29
 weight: 7
@@ -15,7 +15,7 @@ Tuần này em tìm hiểu mô hình tính toán không máy chủ và học cá
 * Tìm hiểu công cụ AWS CloudFormation để khai báo tài nguyên qua Template và chạy thử Stack Deployment.
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em tham gia hoạt động Event 2: First Cloud AI Meet Up, tích lũy kiến thức chia sẻ, ghi nhận một số kinh nghiệm thực tiễn và tìm thêm ý tưởng để áp dụng cho CloudDoc. | 30/05/2026 | 30/05/2026 |
 | 2 | Em tìm hiểu về AWS Lambda, cấu hình thử nghiệm Runtime, tìm hiểu cách viết mã nguồn Handler và thiết lập cơ chế Trigger. | 31/05/2026 | 31/05/2026 |

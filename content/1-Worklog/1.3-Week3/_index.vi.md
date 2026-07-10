@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 3"
 date: 2026-05-01
 weight: 3
@@ -15,7 +15,7 @@ Một tuần mới bắt đầu, em chuyển sang tìm hiểu về phân quyền
 * Tìm hiểu các tính năng quản lý phiên bản (Versioning), vòng đời đối tượng (Object Lifecycle) và cơ chế sao chép chéo vùng (Cross-Region Replication).
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em cấu hình IAM Role cho máy chủ EC2 để phân quyền an toàn cho ứng dụng khi truy cập tài nguyên. | 02/05/2026 | 02/05/2026 |
 | 2 | Em tìm hiểu cách khởi tạo Bucket, quy tắc đặt tên, cấu hình quyền truy cập và học về các Storage Classes trên S3. | 03/05/2026 | 03/05/2026 |

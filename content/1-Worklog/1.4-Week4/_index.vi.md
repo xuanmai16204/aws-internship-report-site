@@ -1,4 +1,4 @@
----
+﻿---
 title: "Worklog Tuần 4"
 date: 2026-05-08
 weight: 4
@@ -15,7 +15,7 @@ Tuần này em chuyển sang tìm hiểu về dịch vụ cơ sở dữ liệu q
 * Tìm hiểu cấu trúc vận hành của hệ thống co giãn tự động EC2 Auto Scaling và bộ cân bằng tải Elastic Load Balancer (ELB).
 
 ### Công việc thực hiện trong tuần:
-| NgÃ y | Công việc | Ngày bắt đầu | Ngày hoàn thành |
+| Ngày | Công việc | Ngày bắt đầu | Ngày hoàn thành |
 | --- | --- | --- | --- |
 | 1 | Em tự tìm hiểu lý thuyết về RDS, phân biệt cách thiết lập Multi-AZ, Read Replica và cơ chế sao lưu. | 09/05/2026 | 09/05/2026 |
 | 2 | Em thực hành tạo cơ sở dữ liệu RDS MySQL và kiểm tra việc kết nối vào Database. | 10/05/2026 | 10/05/2026 |
