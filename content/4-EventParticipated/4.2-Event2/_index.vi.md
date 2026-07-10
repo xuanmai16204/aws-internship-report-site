@@ -1,5 +1,6 @@
 ---
-title: "Meet Up – First Cloud AI Journey"
+title: "AWS Community Day – AWS, DevOps và Định hướng phát triển phần mềm"
+linkTitle: "Giao lưu AWS Community Day và Định hướng DevOps"
 date: 2026-05-30
 weight: 20
 chapter: false
@@ -9,8 +10,9 @@ pre: " <b> 4.2. </b> "
 
 
 ### 1. Thông tin chung
-- **Tên sự kiện:** Meet Up – First Cloud AI Journey
+- **Tên sự kiện:** AWS Community Day – AWS, DevOps và Định hướng phát triển phần mềm
 - **Thời gian:** 30/05/2026
+
 - **Địa điểm:** Văn phòng Công ty TNHH Amazon Web Services Việt Nam
 - **Vai trò:** Người tham dự (Participant)
 

@@ -1,5 +1,6 @@
 ---
-title: "Meet Up – First Cloud AI Journey"
+title: "AWS Community Day – AWS, DevOps and Software Engineering"
+linkTitle: "AWS Community Day and DevOps Insights"
 date: 2026-05-30
 weight: 20
 chapter: false
@@ -9,8 +10,9 @@ pre: " <b> 4.2. </b> "
 
 
 ### 1. General Information
-- **Event Name:** Meet Up – First Cloud AI Journey
+- **Event Name:** AWS Community Day – AWS, DevOps and Software Engineering
 - **Date & Time:** May 30, 2026
+
 - **Location:** Amazon Web Services Viet Nam Company Limited Office
 - **Role:** Participant (Attendee)
 

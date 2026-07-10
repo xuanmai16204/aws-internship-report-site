@@ -1,5 +1,6 @@
 ---
-title: "AWS Community Day – First Cloud AI Journey"
+title: "AWS Vietnam Community Day – AI, Cloud and Multi-Agent Systems"
+linkTitle: "AI, Cloud and Multi-Agent Systems at AWS Vietnam"
 date: 2026-05-23
 weight: 10
 chapter: false
@@ -9,8 +10,9 @@ pre: " <b> 4.1. </b> "
 
 
 ### 1. General Information
-- **Event Name:** AWS Community Day – First Cloud AI Journey
+- **Event Name:** AWS Vietnam Community Day – AI, Cloud and Multi-Agent Systems
 - **Date & Time:** May 23, 2026
+
 - **Location:** Amazon Web Services Viet Nam Company Limited Office
 - **Role:** Participant (Attendee)
 
