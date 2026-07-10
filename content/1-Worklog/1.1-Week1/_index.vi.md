@@ -5,9 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 Tuần đầu tiên bước vào kỳ thực tập, em dành thời gian để hiểu nội dung chương trình và chuẩn bị môi trường chạy Hugo làm báo cáo.
 
