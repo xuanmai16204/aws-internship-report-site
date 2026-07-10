@@ -29,6 +29,6 @@ Workshop được xây dựng dựa trên quy trình xử lý tài liệu gồm 
 
 Ba mục dưới đây sẽ lần lượt giới thiệu những nội dung nền tảng của workshop:
 
-1. CloudDoc là gì?
-2. Dịch vụ sử dụng
-3. Kiến trúc giải pháp
+1. [CloudDoc là gì?]({{% relref "5.1.1-what-is-clouddoc" %}})
+2. [Dịch vụ sử dụng]({{% relref "5.1.2-services-used" %}})
+3. [Kiến trúc giải pháp]({{% relref "5.1.3-architecture" %}})

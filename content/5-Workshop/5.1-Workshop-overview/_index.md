@@ -29,6 +29,6 @@ The workshop follows the document processing workflow below:
 
 The following sections introduce the main concepts used throughout the workshop:
 
-1. What is CloudDoc?
-2. Services Used
-3. Solution Architecture
+1. [What is CloudDoc?]({{% relref "5.1.1-what-is-clouddoc" %}})
+2. [Services Used]({{% relref "5.1.2-services-used" %}})
+3. [Solution Architecture]({{% relref "5.1.3-architecture" %}})

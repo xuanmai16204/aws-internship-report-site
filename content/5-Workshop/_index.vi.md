@@ -30,10 +30,10 @@ Sau khi thực hiện đầy đủ các bước trong workshop, hệ thống có
 
 #### Cấu trúc workshop
 
-1. Giới thiệu
-2. Điều kiện tiên quyết
-3. Triển khai luồng upload và lưu trữ tài liệu
-4. Kiểm thử hệ thống end-to-end
-5. Tích hợp ứng dụng khách và quan sát hệ thống
-6. Cập nhật dữ liệu
-7. Dọn dẹp tài nguyên
+1. [Giới thiệu]({{% relref "5.1-Workshop-overview" %}})
+2. [Điều kiện tiên quyết]({{% relref "5.2-Prerequiste" %}})
+3. [Triển khai luồng upload và lưu trữ tài liệu]({{% relref "5.3-S3-vpc" %}})
+4. [Kiểm thử hệ thống end-to-end]({{% relref "5.4-S3-onprem" %}})
+5. [Tích hợp ứng dụng khách và quan sát hệ thống]({{% relref "5.5-Policy" %}})
+6. [Cập nhật dữ liệu]({{% relref "5.6-Cleanup" %}})
+7. [Dọn dẹp tài nguyên]({{% relref "5.7-clean-resources" %}})

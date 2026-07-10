@@ -30,10 +30,10 @@ Upon completing the workshop, the system will be able to receive uploaded docume
 
 #### Workshop Structure
 
-1. Introduction
-2. Prerequisites
-3. Implementing the Upload and Storage Workflow
-4. End-to-End System Testing
-5. Client Integration and System Monitoring
-6. Data Update
-7. Resource Cleanup
+1. [Introduction]({{% relref "5.1-Workshop-overview" %}})
+2. [Prerequisites]({{% relref "5.2-Prerequiste" %}})
+3. [Implementing the Upload and Storage Workflow]({{% relref "5.3-S3-vpc" %}})
+4. [End-to-End System Testing]({{% relref "5.4-S3-onprem" %}})
+5. [Client Integration and System Monitoring]({{% relref "5.5-Policy" %}})
+6. [Data Update]({{% relref "5.6-Cleanup" %}})
+7. [Resource Cleanup]({{% relref "5.7-clean-resources" %}})
