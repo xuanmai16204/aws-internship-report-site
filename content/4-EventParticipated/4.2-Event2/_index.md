@@ -1,7 +1,7 @@
 ---
 title: "Meet Up – First Cloud AI Journey"
 date: 2026-05-30
-weight: 1
+weight: 20
 chapter: false
 pre: " <b> 4.2. </b> "
 ---

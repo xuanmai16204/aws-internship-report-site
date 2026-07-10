@@ -1,7 +1,7 @@
 ---
 title: "AWS Community Day – First Cloud AI Journey"
 date: 2026-05-23
-weight: 1
+weight: 10
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
