@@ -1,12 +1,13 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
+title: "Chia sẻ và đóng góp ý kiến"
 date: 2026-04-17
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# Chia sẻ và đóng góp ý kiến
+
+
 
 ## Cảm nhận về chương trình
 

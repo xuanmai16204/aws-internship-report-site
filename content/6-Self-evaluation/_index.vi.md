@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Tự đánh giá
 
 ## Quá trình thực tập
 

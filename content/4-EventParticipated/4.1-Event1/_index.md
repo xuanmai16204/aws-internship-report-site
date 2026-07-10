@@ -6,8 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# SUMMARY REPORT
-# AWS Community Day – First Cloud AI Journey
+
 
 ### 1. General Information
 - **Event Name:** AWS Community Day – First Cloud AI Journey

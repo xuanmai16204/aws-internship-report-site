@@ -6,8 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# BÀI THU HOẠCH
-# Meet Up – First Cloud AI Journey
+
 
 ### 1. Thông tin chung
 - **Tên sự kiện:** Meet Up – First Cloud AI Journey

@@ -6,8 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# BÀI THU HOẠCH
-# AWS Community Day – First Cloud AI Journey
+
 
 ### 1. Thông tin chung
 - **Tên sự kiện:** AWS Community Day – First Cloud AI Journey

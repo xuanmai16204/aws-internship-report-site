@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-# Self Assessment
 
 ## Internship Experience
 

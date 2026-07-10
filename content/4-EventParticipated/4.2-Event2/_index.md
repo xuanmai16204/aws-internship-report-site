@@ -6,8 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# SUMMARY REPORT
-# Meet Up – First Cloud AI Journey
+
 
 ### 1. General Information
 - **Event Name:** Meet Up – First Cloud AI Journey

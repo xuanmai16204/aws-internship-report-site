@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-# Feedback and Suggestions
 
 ## Experience with the Internship Program
 
