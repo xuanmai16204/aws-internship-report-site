@@ -28,11 +28,13 @@ Người đọc có thể sử dụng các tài liệu này kết hợp với Wo
 
 ## Video Demo CloudDoc
 
-Phần này cung cấp video demo của hệ thống CloudDoc được thực hiện trong chương trình thực tập First Cloud AI Journey (FCAJ).
+Phần này cung cấp video demo của hệ thống CloudDoc được phát triển trong chương trình thực tập First Cloud AI Journey (FCAJ).
 
-Video giới thiệu các chức năng chính của hệ thống và minh họa quá trình sử dụng ứng dụng CloudDoc.
+Video minh họa giao diện người dùng và các chức năng chính của hệ thống, giúp người xem có cái nhìn trực quan về quy trình sử dụng ứng dụng CloudDoc.
 
-{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}Xem Video Demo CloudDoc{{% /button %}}
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}
+🎥 Xem Video Demo CloudDoc
+{{% /button %}}
 
 #### Mục tiêu
 

@@ -26,13 +26,15 @@ Readers can use these resources together with this Workshop to better understand
 
 {{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}CloudDoc Demo & Workshop Resources{{% /button %}}
 
-## CloudDoc Video Demo
+## CloudDoc Demo Video
 
-This section provides the demonstration video of the CloudDoc system developed during the First Cloud AI Journey (FCAJ) internship program.
+This section provides a demonstration video of the CloudDoc system developed during the First Cloud AI Journey (FCAJ) internship program.
 
-The video introduces the main features of the system and illustrates the process of using the CloudDoc application.
+The video showcases the user interface and the main features of the application, providing an overview of how users interact with the CloudDoc system.
 
-{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}Watch CloudDoc Video Demo{{% /button %}}
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}
+🎥 Watch CloudDoc Demo Video
+{{% /button %}}
 
 #### Objectives
 
