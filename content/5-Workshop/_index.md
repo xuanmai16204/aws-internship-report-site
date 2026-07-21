@@ -14,6 +14,26 @@ This workshop presents the implementation process of the CloudDoc system on AWS.
 
 The workshop follows the actual workflow of the system, starting with environment preparation, infrastructure verification, document uploading, storage validation, feature testing, and ending with resource cleanup. This structure helps readers understand how AWS services work together throughout the project.
 
+## CloudDoc Demo & Workshop Resources
+
+This section provides the demonstration materials for the CloudDoc project developed during my AWS internship.
+
+The Google Drive folder contains the complete workshop resources, including screenshots, deployment materials, configuration files, supporting documents, and demonstration assets used throughout the implementation process.
+
+Readers can use these resources together with this Workshop to better understand the deployment workflow and reproduce the CloudDoc system on AWS.
+
+**📁 Open CloudDoc Demo & Workshop Resources**
+
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}CloudDoc Demo & Workshop Resources{{% /button %}}
+
+## CloudDoc Video Demo
+
+This section provides the demonstration video of the CloudDoc system developed during the First Cloud AI Journey (FCAJ) internship program.
+
+The video introduces the main features of the system and illustrates the process of using the CloudDoc application.
+
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}Watch CloudDoc Video Demo{{% /button %}}
+
 #### Objectives
 
 After completing this workshop, readers will be able to:

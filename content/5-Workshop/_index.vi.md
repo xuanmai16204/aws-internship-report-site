@@ -14,6 +14,26 @@ Workshop này trình bày quá trình xây dựng và triển khai hệ thống 
 
 Nội dung workshop được sắp xếp theo đúng quy trình hoạt động của hệ thống, bắt đầu từ bước chuẩn bị môi trường, kiểm tra hạ tầng, thực hiện tải tài liệu, xác nhận dữ liệu được lưu trên AWS, kiểm thử các chức năng và hoàn tất bằng việc dọn dẹp tài nguyên sau khi kết thúc. Cách trình bày này giúp người đọc dễ theo dõi từng bước triển khai cũng như hiểu được cách các dịch vụ AWS phối hợp với nhau trong dự án.
 
+## Demo CloudDoc & Tài nguyên Workshop
+
+Đây là phần tài liệu minh họa và demo của dự án CloudDoc được thực hiện trong quá trình thực tập AWS.
+
+Thư mục Google Drive bao gồm toàn bộ tài liệu Workshop, hình ảnh minh họa, cấu hình AWS, tài liệu hướng dẫn, các tệp phục vụ triển khai và những nội dung được sử dụng trong quá trình xây dựng hệ thống CloudDoc.
+
+Người đọc có thể sử dụng các tài liệu này kết hợp với Workshop để dễ dàng theo dõi quy trình triển khai và thực hành lại hệ thống CloudDoc trên nền tảng AWS.
+
+**📁 Mở Demo CloudDoc & Tài nguyên Workshop**
+
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}Demo CloudDoc & Tài nguyên Workshop{{% /button %}}
+
+## Video Demo CloudDoc
+
+Phần này cung cấp video demo của hệ thống CloudDoc được thực hiện trong chương trình thực tập First Cloud AI Journey (FCAJ).
+
+Video giới thiệu các chức năng chính của hệ thống và minh họa quá trình sử dụng ứng dụng CloudDoc.
+
+{{% button href="https://drive.google.com/drive/folders/1-mvKrbzs08WWHUT0-whSGeNwgtwd4Uid?usp=sharing" icon="fab fa-google-drive" %}}Xem Video Demo CloudDoc{{% /button %}}
+
 #### Mục tiêu
 
 Sau khi hoàn thành workshop, người đọc có thể:
